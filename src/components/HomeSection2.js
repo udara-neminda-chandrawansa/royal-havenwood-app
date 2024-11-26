@@ -7,16 +7,17 @@ function HomeSection2() {
       {/*Title*/}
       <div className="flex flex-col items-start gap-5 w-1/3 px-3 py-12 max-[992px]:w-full lg:h-fit">
         <span className="g-font-2 text-xs tracking-widest text-gray-600 uppercase flex items-center gap-5">
-          Properties
+          Living spaces
           <div className="w-[120px] border-t-[1px] border-t-gray-400"></div>
         </span>
         <h1 className="uppercase text-5xl max-lg:text-4xl leading-snug">
-          Premium Properties In the Best Locations
+          Architecture And Decor
         </h1>
         <p className="text-lg g-font-1 text-gray-600">
-          Our properties, located in prime areas, boast unique designs and
-          aspirational lifestyles within vibrant UNC communities, all
-          seamlessly managed by UNC Community Management's dedicated team.
+          At Royal Havenwood, we blend modern and classic architecture to create
+          stunning, durable properties. Our interiors are designed with stylish
+          furniture, soothing colors, and elegant decor, ensuring every space is
+          both inviting and luxurious.
         </p>
         <span className="w-full max-[992px]:hidden">
           <Button
@@ -32,10 +33,10 @@ function HomeSection2() {
         <div className="flex flex-col justify-start w-1/2 px-3 max-md:w-full">
           <CardType2
             cardUrl={"https://www.google.com"}
-            cardText1={"Velora 2 at The Valley Phase 2"}
-            cardText2={"The Valley"}
+            cardText1={"Luxe lodging with 3 restaurants & a spa"}
+            cardText2={"Mount Lavinia Hotel"}
             cardImage={
-              "https://cdn.properties.emaar.com/wp-content/uploads/2024/10/HERO_1620X832_2-2-440x570.jpg"
+              "https://royalhavenwood.com/wp-content/uploads/2024/11/Second-scaled.jpg"
             }
             cardImageMd={
               "https://cdn.properties.emaar.com/wp-content/uploads/2024/10/HERO_1620X832_2-2-706x385.jpg"
@@ -43,13 +44,13 @@ function HomeSection2() {
           />
           <CardType2
             cardUrl={"https://www.google.com"}
-            cardText1={"Vida Residences Club Point at Dubai Hills Estate"}
-            cardText2={"Dubai Hills Estate"}
+            cardText1={"Polished, tropical hotel with tennis"}
+            cardText2={"Hotel Sigiriya"}
             cardImage={
-              "https://cdn.properties.emaar.com/wp-content/uploads/2024/10/HERO_1620X832_3-706x385.jpg"
+              "https://royalhavenwood.com/wp-content/uploads/2024/11/Hero-1-scaled.jpg"
             }
             cardImageMd={
-              "https://cdn.properties.emaar.com/wp-content/uploads/2024/10/HERO_1620X832_3-706x385.jpg"
+              "https://royalhavenwood.com/wp-content/uploads/2024/11/Hero-1-scaled.jpg"
             }
           />
         </div>
@@ -57,35 +58,35 @@ function HomeSection2() {
         <div className="flex flex-col justify-start w-1/2 px-3 max-md:w-full">
           <CardType2
             cardUrl={"https://www.google.com"}
-            cardText1={"Pier Point at Rashid Yachts & Marina"}
-            cardText2={"Rashid Yachts & Marina"}
+            cardText1={"Center Point Grill & Bar"}
+            cardText2={"Jetwing Blue Negombo"}
             cardImage={
-              "https://cdn.properties.emaar.com/wp-content/uploads/2024/09/HERO_1620X832_3-6-706x385.jpg"
+              "https://royalhavenwood.com/wp-content/uploads/2024/11/About-us-scaled.jpg"
             }
             cardImageMd={
-              "https://cdn.properties.emaar.com/wp-content/uploads/2024/09/HERO_1620X832_3-6-706x385.jpg"
+              "https://royalhavenwood.com/wp-content/uploads/2024/11/About-us-scaled.jpg"
             }
           />
           <CardType2
             cardUrl={"https://www.google.com"}
-            cardText1={"Porto View at Rashid Yachts & Marina"}
-            cardText2={"Rashid Yachts & Marina"}
+            cardText1={"Baywatch Sea Food"}
+            cardText2={"Dickwella Resort and Spa"}
             cardImage={
-              "https://cdn.properties.emaar.com/wp-content/uploads/2024/09/HERO_1620X832_1-6-706x385.jpg"
+              "https://royalhavenwood.com/wp-content/uploads/2024/11/Interior-1-scaled.jpg"
             }
             cardImageMd={
-              "https://cdn.properties.emaar.com/wp-content/uploads/2024/09/HERO_1620X832_1-6-706x385.jpg"
+              "https://royalhavenwood.com/wp-content/uploads/2024/11/Interior-1-scaled.jpg"
             }
           />
           <CardType2
             cardUrl={"https://www.google.com"}
-            cardText1={"Greenridge at UNC South"}
-            cardText2={"UNC South"}
+            cardText1={"Overlooking Weligama Bay"}
+            cardText2={"Weligama Bay Resort"}
             cardImage={
-              "https://cdn.properties.emaar.com/wp-content/uploads/2024/09/HERO_1620X832_1-3-706x385.jpg"
+              "https://royalhavenwood.com/wp-content/uploads/2024/11/laura-adai-J60bPeDiR8A-unsplash-scaled.jpg"
             }
             cardImageMd={
-              "https://cdn.properties.emaar.com/wp-content/uploads/2024/09/HERO_1620X832_1-3-706x385.jpg"
+              "https://royalhavenwood.com/wp-content/uploads/2024/11/laura-adai-J60bPeDiR8A-unsplash-scaled.jpg"
             }
           />
         </div>

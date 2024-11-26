@@ -14,10 +14,10 @@ function HomeSection1() {
             cardHeader={"Communities 360° Tour"}
             cardHeaderClasses={"text-4xl"}
             cardText1={
-              "Experience Dubai Hills Estatate communities and ammenities from the comfort of your home."
+              "Experience Royal Havenwood communities and ammenities from the comfort of your home."
             }
             cardImage={
-              "https://cdn.emaar.com/wp-content/uploads/2023/10/communities-vr-tour-thumb.jpg"
+              "https://royalhavenwood.com/wp-content/uploads/2024/07/Untitled-design-1.png"
             }
             extraClasses={"h-[70vh] w-[400px] max-[600px]:w-full"}
             btnText={"Try It Now"}
@@ -27,7 +27,7 @@ function HomeSection1() {
             cardHeaderClasses={"text-4xl"}
             cardText1={"Explore our portfolio of international projects."}
             cardImage={
-              "https://cdn.emaar.com/wp-content/uploads/2021/12/EMAAR_INTERNATIONAL-440x385.jpg"
+              "https://royalhavenwood.com/wp-content/uploads/2024/07/Untitled-design-2.png"
             }
             extraClasses={"h-[70vh] w-[400px] max-[600px]:w-full"}
             btnText={"Read More"}
@@ -39,7 +39,7 @@ function HomeSection1() {
               "Click to read our top tips and tricks for property management, home decoration and more."
             }
             cardImage={
-              "https://cdn.emaar.com/wp-content/uploads/2021/08/EMAAR_BLOG_HEADER_RESIZED-440x385.jpg"
+              "https://royalhavenwood.com/wp-content/uploads/2024/07/Untitled-design-3.png"
             }
             extraClasses={"h-[70vh] w-[400px] max-[600px]:w-full"}
             btnText={"Read More"}
