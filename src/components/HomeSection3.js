@@ -24,12 +24,12 @@ function HomeSection3() {
     <div className="h-[100dvh] flex items-center justify-center px-3 py-12 max-lg:h-fit">
       <div className="flex flex-col gap-3 w-full">
         <span className="g-font-2 text-xs tracking-widest text-gray-600 uppercase flex items-center gap-5">
-          Communities
+          Projects
           <div className="w-[120px] border-t-[1px] border-t-gray-400"></div>
         </span>
         <span className="flex justify-between items-center">
           <h1 className="uppercase text-5xl max-lg:text-4xl leading-snug">
-            Featured Communities
+            Featured Projects
           </h1>
           <span className="max-md:hidden">
             <Button
@@ -83,192 +83,168 @@ function HomeSection3() {
         >
           <span className="flex w-fit gap-5 py-3">
             <CardType1
-              cardHeader={"The Heights Country Club & Wellness"}
+              cardHeader={"Design Role"}
               cardHeaderClasses={"text-2xl"}
-              cardText1={"Where Life is Well-Lived"}
+              cardText1={"Outdoor Design"}
               cardText1Classes={
                 "uppercase text-xs g-font-2 tracking-widest p-1"
               }
-              cardText2={"3 & 4 Bedroom Townhouses and 4 Bedroom Villas"}
-              cardText2Classes={"text-xs g-font-2 p-1 tracking-widest"}
               cardImage={
-                "https://cdn.emaar.com/wp-content/uploads/2024/06/THE-HEIGHT-_320X415.jpeg"
+                "https://royalhavenwood.com/wp-content/uploads/2020/10/hayrullah-gozcu-bltGAZI75-4-unsplash-1-scaled-607x726.jpg"
               }
               cardImageClasses={"h-[400px]"}
               btnText={"nobtn"}
               extraClasses={"w-[300px] h-fit py-1 gap-3"}
             />
             <CardType1
-              cardHeader={"Address Al Marjan Island, Ras Al Khaimah"}
+              cardHeader={"Means Of Design"}
               cardHeaderClasses={"text-2xl"}
-              cardText1={"New vision of luxury beachfront living"}
+              cardText1={"Outdoor Design"}
               cardText1Classes={
                 "uppercase text-xs g-font-2 tracking-widest p-1"
               }
-              cardText2={"Apartments, Townhouses and Sea Front-Homes"}
-              cardText2Classes={"text-xs g-font-2 p-1 tracking-widest"}
               cardImage={
-                "https://cdn.emaar.com/wp-content/uploads/2024/05/Community-Featured-Image-portrait-320x415.jpg"
+                "https://royalhavenwood.com/wp-content/uploads/2020/10/viktor-jakovlev-H0vuplqoX0c-unsplash-scaled-607x726.jpg"
               }
               cardImageClasses={"h-[400px]"}
               btnText={"nobtn"}
               extraClasses={"w-[300px] h-fit py-1 gap-3"}
             />
             <CardType1
-              cardHeader={"The Oasis"}
+              cardHeader={"Environmental Role"}
               cardHeaderClasses={"text-2xl"}
-              cardText1={"Immerse in Pure Luxury"}
+              cardText1={"Outdoor Design"}
               cardText1Classes={
                 "uppercase text-xs g-font-2 tracking-widest p-1"
               }
-              cardText2={"Villas and Mansions"}
-              cardText2Classes={"text-xs g-font-2 p-1 tracking-widest"}
               cardImage={
-                "https://cdn.emaar.com/wp-content/uploads/2023/06/OASIS_320-x-415-320x415-1-320x415.jpg.webp"
+                "https://royalhavenwood.com/wp-content/uploads/2024/11/Interior-1-scaled-607x726.jpg"
               }
               cardImageClasses={"h-[400px]"}
               btnText={"nobtn"}
               extraClasses={"w-[300px] h-fit py-1 gap-3"}
             />
             <CardType1
-              cardHeader={"Dubai Marina"}
+              cardHeader={"Construction Role"}
               cardHeaderClasses={"text-2xl"}
-              cardText1={"A path-breaking waterfront project by UNC"}
+              cardText1={"Outdoor Design"}
               cardText1Classes={
                 "uppercase text-xs g-font-2 tracking-widest p-1"
               }
-              cardText2={"-"}
-              cardText2Classes={"text-xs g-font-2 p-1 tracking-widest"}
               cardImage={
-                "https://cdn.emaar.com/wp-content/uploads/2021/08/DUBAI_MARINA_COMMUNITY-320x415.jpg"
+                "https://royalhavenwood.com/wp-content/uploads/2020/10/spacejoy-KSfe2Z4REEM-unsplash-scaled-607x726.jpg"
               }
               cardImageClasses={"h-[400px]"}
               btnText={"nobtn"}
               extraClasses={"w-[300px] h-fit py-1 gap-3"}
             />
             <CardType1
-              cardHeader={"Dubai Hills Estate"}
+              cardHeader={"Lighting Design"}
               cardHeaderClasses={"text-2xl"}
-              cardText1={"The green heart of Dubai"}
+              cardText1={"Outdoor Design"}
               cardText1Classes={
                 "uppercase text-xs g-font-2 tracking-widest p-1"
               }
-              cardText2={"3 to 6 BEDROOM VILLAS"}
-              cardText2Classes={"text-xs g-font-2 p-1 tracking-widest"}
               cardImage={
-                "https://cdn.emaar.com/wp-content/uploads/2021/08/DHE_COMMUNITY_HERO-resize-scaled-1-320x415.jpeg"
+                "https://royalhavenwood.com/wp-content/uploads/2020/10/webaliser-_TPTXZd9mOo-unsplash-scaled-607x726.jpg"
               }
               cardImageClasses={"h-[400px]"}
               btnText={"nobtn"}
               extraClasses={"w-[300px] h-fit py-1 gap-3"}
             />
             <CardType1
-              cardHeader={"Dubai Creek Harbour"}
+              cardHeader={"Alternate Practice"}
               cardHeaderClasses={"text-2xl"}
-              cardText1={"Views to Live for"}
+              cardText1={"Outdoor Design"}
               cardText1Classes={
                 "uppercase text-xs g-font-2 tracking-widest p-1"
               }
-              cardText2={"Apartments and Villas"}
-              cardText2Classes={"text-xs g-font-2 p-1 tracking-widest"}
               cardImage={
-                "https://cdn.emaar.com/wp-content/uploads/2021/08/DUBAI_CREEK_HARBOUR_HERO-320x415.jpg"
+                "https://royalhavenwood.com/wp-content/uploads/2020/10/zion-c-sGblr5yVXiM-unsplash-607x726.jpg"
               }
               cardImageClasses={"h-[400px]"}
               btnText={"nobtn"}
               extraClasses={"w-[300px] h-fit py-1 gap-3"}
             />
             <CardType1
-              cardHeader={"Arabian Ranches III"}
+              cardHeader={"Architectural Designer"}
               cardHeaderClasses={"text-2xl"}
-              cardText1={"Find your happy"}
+              cardText1={"Outdoor Design"}
               cardText1Classes={
                 "uppercase text-xs g-font-2 tracking-widest p-1"
               }
-              cardText2={"3 & 4 Bedroom Villas"}
-              cardText2Classes={"text-xs g-font-2 p-1 tracking-widest"}
               cardImage={
-                "https://cdn.emaar.com/wp-content/uploads/2021/08/EMAAR_DubaiRanchesMP_CGI07_04-3-scaled-1-320x415.jpg"
+                "https://royalhavenwood.com/wp-content/uploads/2020/10/vu-anh-TiVPTYCG_3E-unsplash-scaled-607x726.jpg"
               }
               cardImageClasses={"h-[400px]"}
               btnText={"nobtn"}
               extraClasses={"w-[300px] h-fit py-1 gap-3"}
             />
             <CardType1
-              cardHeader={"The Valley"}
+              cardHeader={"Architectural Drawing"}
               cardHeaderClasses={"text-2xl"}
-              cardText1={"Dreams begin here"}
+              cardText1={"Outdoor Design"}
               cardText1Classes={
                 "uppercase text-xs g-font-2 tracking-widest p-1"
               }
-              cardText2={"3 & 4 Bedroom Townhouses"}
-              cardText2Classes={"text-xs g-font-2 p-1 tracking-widest"}
               cardImage={
-                "https://cdn.emaar.com/wp-content/uploads/2021/08/EMAAR_DubaiValley_CGI03_resize-scaled-1-320x415.jpeg"
+                "https://royalhavenwood.com/wp-content/uploads/2020/10/diane-picchiottino-GXLazwyfl0k-unsplash-scaled-607x726.jpg"
               }
               cardImageClasses={"h-[400px]"}
               btnText={"nobtn"}
               extraClasses={"w-[300px] h-fit py-1 gap-3"}
             />
             <CardType1
-              cardHeader={"Downtown Dubai"}
+              cardHeader={"Chartered Architect"}
               cardHeaderClasses={"text-2xl"}
-              cardText1={"THE ULTIMATE ADDRESS"}
+              cardText1={"Outdoor Design"}
               cardText1Classes={
                 "uppercase text-xs g-font-2 tracking-widest p-1"
               }
-              cardText2={"1 to 6 Bedroom Apartments"}
-              cardText2Classes={"text-xs g-font-2 p-1 tracking-widest"}
               cardImage={
-                "https://cdn.emaar.com/wp-content/uploads/2021/08/AHD_BRAND_VIEW-FROM-ADDRESS-FOUNTAIN-VIEWS_AMBIENT_HR_01-resize-scaled-1-320x415.jpeg"
+                "https://royalhavenwood.com/wp-content/uploads/2020/10/ryan-ancill-Vew4xyLkpdY-unsplash-1-scaled-607x726.jpg"
               }
               cardImageClasses={"h-[400px]"}
               btnText={"nobtn"}
               extraClasses={"w-[300px] h-fit py-1 gap-3"}
             />
             <CardType1
-              cardHeader={"UNC South"}
+              cardHeader={"Landscape Architect"}
               cardHeaderClasses={"text-2xl"}
-              cardText1={"Local Community With A Global Gateway"}
+              cardText1={"Outdoor Design"}
               cardText1Classes={
                 "uppercase text-xs g-font-2 tracking-widest p-1"
               }
-              cardText2={"3 & 4 Bedroom Villas"}
-              cardText2Classes={"text-xs g-font-2 p-1 tracking-widest"}
               cardImage={
-                "https://cdn.emaar.com/wp-content/uploads/2021/08/ES_View_13-scaled-1-320x415.jpg"
+                "https://royalhavenwood.com/wp-content/uploads/2020/10/adam-neumann-2I5t_A3N5N4-unsplash-scaled-607x726.jpg"
               }
               cardImageClasses={"h-[400px]"}
               btnText={"nobtn"}
               extraClasses={"w-[300px] h-fit py-1 gap-3"}
             />
             <CardType1
-              cardHeader={"UNC Beachfront"}
+              cardHeader={"List Of Architects"}
               cardHeaderClasses={"text-2xl"}
-              cardText1={"PRIVATE BEACH LIVING"}
+              cardText1={"Outdoor Design"}
               cardText1Classes={
                 "uppercase text-xs g-font-2 tracking-widest p-1"
               }
-              cardText2={"Apartments and Villas"}
-              cardText2Classes={"text-xs g-font-2 p-1 tracking-widest"}
               cardImage={
-                "https://cdn.emaar.com/wp-content/uploads/2021/08/BENOY_DubaiHarbour_CGI12_02-resize-scaled-1-320x415.jpeg"
+                "https://royalhavenwood.com/wp-content/uploads/2020/10/claudia-lorusso-EUByJmBmVEw-unsplash-scaled-607x726.jpg"
               }
               cardImageClasses={"h-[400px]"}
               btnText={"nobtn"}
               extraClasses={"w-[300px] h-fit py-1 gap-3"}
             />
             <CardType1
-              cardHeader={"RASHID YACHTS & MARINA"}
+              cardHeader={"Architect Like"}
               cardHeaderClasses={"text-2xl"}
-              cardText1={"A Unique Heritage Sails Into The Future"}
+              cardText1={"Outdoor Design"}
               cardText1Classes={
                 "uppercase text-xs g-font-2 tracking-widest p-1"
               }
-              cardText2={"1, 2 & 3 Bedroom Apartments"}
-              cardText2Classes={"text-xs g-font-2 p-1 tracking-widest"}
               cardImage={
-                "https://cdn.emaar.com/wp-content/uploads/2021/08/EMAAR_MinaRashid_CGI19_06-scaled-1-320x415.jpg"
+                "https://royalhavenwood.com/wp-content/uploads/2020/10/victor-Ze9ykREkuVA-unsplash-scaled-607x726.jpg"
               }
               cardImageClasses={"h-[400px]"}
               btnText={"nobtn"}
