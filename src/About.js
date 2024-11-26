@@ -284,7 +284,7 @@ export default function About() {
           />
         </span>
       </div>
-      {/*other emaar businesses*/}
+      {/*other UNC businesses*/}
       <div className="h-[100vh] flex items-center justify-center px-3 py-12 max-lg:h-fit">
         <div className="flex flex-col gap-3 w-full">
           <span className="g-font-2 text-xs tracking-widest text-gray-600 uppercase flex items-center gap-5">

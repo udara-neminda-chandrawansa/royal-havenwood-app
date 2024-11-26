@@ -5,7 +5,7 @@ import React, { useState } from "react";
 import Button from "./Button";
 import Nav from "./Nav";
 
-export default function Banner({changeActivePage}) {
+export default function Banner() {
   //
   // Carousel Logic
   //
@@ -26,54 +26,48 @@ export default function Banner({changeActivePage}) {
         case 1:
           // code
           updateAllItems([
-            "https://cdn.emaar.com/wp-content/uploads/2024/10/VIDA_CLUB_POINT_LOGO_120PX.png",
-            "Vida Residencies Club Point | Dubai Hills Estate",
-            "Where your story unfolds",
+            "Housing Constructions",
+            "Crafting Homes with Precision",
             "bg-banner-1",
           ]);
           break;
         case 2:
           // code
           updateAllItems([
-            "https://cdn.emaar.com/wp-content/uploads/2024/09/PIERPOINT_WESITE_LOGO-2.png",
-            "Pier Points at Rashid Yachts & Marina",
-            "A new chapter of chic marina living",
+            "Building Constructions",
+            "Solid Foundations for Your Projects",
             "bg-banner-2",
           ]);
           break;
         case 3:
           // code
           updateAllItems([
-            "https://cdn.properties.emaar.com/wp-content/uploads/2024/09/PORTOVIEW_WEBSITE_LOGO-1.png",
-            "Porto View at Rashid Yachts & Marina",
-            "Where Luxury Meets Horizon",
+            "Hotel & Restaurant Constructions",
+            "Luxury Spaces for Hospitality",
             "bg-banner-3",
           ]);
           break;
         case 4:
           // code
           updateAllItems([
-            "https://cdn.properties.emaar.com/wp-content/uploads/2024/09/GREENRIFGE_LOGO_ES_h40.png",
-            "Green ridge at emaar south",
-            "Discover a new standard of family living",
+            "Villa Constructions",
+            "Elegant Villas, Tailored for You",
             "bg-banner-4",
           ]);
           break;
         case 5:
           // code
           updateAllItems([
-            "https://cdn.properties.emaar.com/wp-content/uploads/2024/09/LAVITA_OASIS_LOGO_EN_120PX.png",
-            "Lavita at the oasis",
-            "The art of gracious living",
+            "Cabana Constructions",
+            "Cozy Retreats by Design",
             "bg-banner-5",
           ]);
           break;
         case 6:
           // code
           updateAllItems([
-            "https://cdn.properties.emaar.com/wp-content/uploads/2024/07/AVENA_TV_LOGO_EN_40.png",
-            "Avena at the valley",
-            "Welcome to your dream heaven",
+            "Warehouse Constructions",
+            "Efficient Storage, Built Right",
             "bg-banner-6",
           ]);
           break;
@@ -87,7 +81,6 @@ export default function Banner({changeActivePage}) {
   ); // Add updateAllItems to the dependencies
 
   const [items, setItems] = useState([
-    "https://cdn.emaar.com/wp-content/uploads/2024/10/VIDA_CLUB_POINT_LOGO_120PX.png",
     "Vida Residencies Club Point | Dubai Hills Estate",
     "Where your story unfolds",
     "bg-banner-1",
@@ -266,27 +259,22 @@ export default function Banner({changeActivePage}) {
   //
   return (
     <div
-      className={`w-full flex flex-col justify-between p-1 h-[100vh] bg-cover ${items[3]} transition-all delay-75 text-white`}
+      className={`w-full flex flex-col justify-between p-1 h-[100vh] bg-cover ${items[2]} transition-all delay-75 text-white`}
     >
-      <Nav nav_burger_color_css={"text-white"} changeActivePage={changeActivePage}/>
+      <Nav nav_burger_color_css={"text-white"} />
       {/*shadow*/}
       <div className="absolute inset-0 bg-gradient-to-br from-[#1a2e33] to-transparent"></div>
       {/*carousel + banner*/}
       <div className="w-2/3 flex flex-col justify-between p-3 z-10 mt-12">
-        <img
-          className="w-20 h-20 object-contain"
-          src={items[0]}
-          alt="property-logo"
-        ></img>
         <p className="uppercase px-3 py-1 border-[1px] border-solid border-white w-fit my-8 text-sm">
-          Newly Launched
+          Our Services
         </p>
         <span>
           <h1 className="text-5xl uppercase max-md:text-3xl max-sm:text-2xl">
-            {items[1]}
+            {items[0]}
           </h1>
           <p className="text-2xl g-font-1 capitalize max-md:text-xl max-sm:text-xs">
-            {items[2]}
+            {items[1]}
           </p>
         </span>
         <span className="mt-5">
@@ -328,12 +316,12 @@ export default function Banner({changeActivePage}) {
                   className="shadow-md w-1/4 flex flex-wrap z-10 bg-white p-1 rounded select-none"
                 >
                   {[
-                    "Apartment",
-                    "Hotel",
-                    "Office",
-                    "Plot",
-                    "Townhouse",
+                    "House",
+                    "Building",
+                    "Hotel & Restaurant",
                     "Villa",
+                    "Cabana",
+                    "Warehouse",
                   ].map((label, index) => (
                     <Field
                       className="flex items-center gap-3 w-1/2 p-2"
@@ -654,14 +642,10 @@ export default function Banner({changeActivePage}) {
                         Featured Community
                       </p>
                       {[
-                        "The Oasis",
-                        "Dubai Marina",
-                        "Dubai Hills Estate",
-                        "Dubai Creek Harbour",
-                        "Arabian Ranches III",
-                        "The Valley",
-                        "Downtown Dubai",
-                        "UNC South",
+                        "Community 1",
+                        "Community 2",
+                        "Community 3",
+                        "Community 4",
                       ].map((label, index) => (
                         <Field
                           className="flex items-center gap-3 w-1/2 p-2"
@@ -695,36 +679,32 @@ export default function Banner({changeActivePage}) {
                         More Communities
                       </p>
                       <span className="flex">
-                        {["Address Residences Zabeel", "Arabian Ranches"].map(
-                          (label, index) => (
-                            <Field
-                              className="flex items-center gap-3 w-fit p-2"
-                              key={label}
+                        {["Community 5", "Community 6"].map((label, index) => (
+                          <Field
+                            className="flex items-center gap-3 w-fit p-2"
+                            key={label}
+                          >
+                            <Checkbox
+                              checked={chkCommunities[index + 8]} // adjust the index to match the original array
+                              onChange={() => toggleCommCheckbox(index + 8)} // adjust index for toggle
+                              className="group block size-6 rounded border border-black bg-white data-[checked]:bg-yellow-600"
                             >
-                              <Checkbox
-                                checked={chkCommunities[index + 8]} // adjust the index to match the original array
-                                onChange={() => toggleCommCheckbox(index + 8)} // adjust index for toggle
-                                className="group block size-6 rounded border border-black bg-white data-[checked]:bg-yellow-600"
+                              <svg
+                                className="stroke-white opacity-0 group-data-[checked]:opacity-100"
+                                viewBox="0 0 14 14"
+                                fill="none"
                               >
-                                <svg
-                                  className="stroke-white opacity-0 group-data-[checked]:opacity-100"
-                                  viewBox="0 0 14 14"
-                                  fill="none"
-                                >
-                                  <path
-                                    d="M3 8L6 11L11 3.5"
-                                    strokeWidth={2}
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round"
-                                  />
-                                </svg>
-                              </Checkbox>
-                              <Label className="text-sm g-font-2">
-                                {label}
-                              </Label>
-                            </Field>
-                          )
-                        )}
+                                <path
+                                  d="M3 8L6 11L11 3.5"
+                                  strokeWidth={2}
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                />
+                              </svg>
+                            </Checkbox>
+                            <Label className="text-sm g-font-2">{label}</Label>
+                          </Field>
+                        ))}
                       </span>
                     </span>
                   </span>
@@ -826,4 +806,3 @@ export default function Banner({changeActivePage}) {
     </div>
   );
 }
-

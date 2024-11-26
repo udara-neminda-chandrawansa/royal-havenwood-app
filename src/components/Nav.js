@@ -1,5 +1,6 @@
 import Button from "./Button";
 import { Link } from "wouter";
+import logo from "../images/logo.png";
 
 export default function Nav({ theme, nav_burger_color_css }) {
   const handleOpening = () => {
@@ -35,7 +36,7 @@ export default function Nav({ theme, nav_burger_color_css }) {
         </span>
         <h2 className="flex items-center px-6 text-3xl">
           <Link href="/">
-            <p>UNC</p>
+            <img src={logo} alt="logo" className="h-8"></img>
           </Link>
         </h2>
         <ul className="flex gap-5 p-5 uppercase text-xs optima-bold tracking-wider max-lg:hidden">
