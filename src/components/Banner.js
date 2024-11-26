@@ -81,8 +81,8 @@ export default function Banner() {
   ); // Add updateAllItems to the dependencies
 
   const [items, setItems] = useState([
-    "Vida Residencies Club Point | Dubai Hills Estate",
-    "Where your story unfolds",
+    "HOUSING CONSTRUCTIONS",
+    "Crafting Homes With Precision",
     "bg-banner-1",
   ]); // carousel array
 
