@@ -1,0 +1,1 @@
+hosting: npm run deploy -- -m "deploy-message-here"

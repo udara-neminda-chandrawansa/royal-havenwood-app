@@ -1,0 +1,123 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "optima-reg"; /* optima regular */
+  src: url("./fonts/Optima-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "optima-bold"; /* optima bold */
+  src: url("./fonts/OPTIMA_B.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "g-font-1"; /* google fonts 1 */
+  src: url("./fonts/google-font-1.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "g-font-2"; /* google fonts 2 */
+  src: url("./fonts/google-font-2.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "g-font-3"; /* google fonts 3 */
+  src: url("./fonts/google-font-3.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  font-family: "optima-reg", BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.optima-reg {
+  font-family: "optima-reg", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.optima-bold {
+  font-family: "optima-bold", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.g-font-1 {
+  font-family: "g-font-1", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.g-font-2 {
+  font-family: "g-font-2", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.g-font-3 {
+  font-family: "g-font-3", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bg-banner-1 {
+  background: url("https://cdn.properties.emaar.com/wp-content/uploads/2024/10/VIDA_CLUB_POINT_DHE_BANNER_WEB_1920X1080.jpg")
+    no-repeat;
+  background-size: cover;
+}
+
+.bg-banner-2 {
+  background: url("https://cdn.emaar.com/wp-content/uploads/2024/09/PIERPOINT_RYM_HOMEPAGE_BANNER_1920x1080.jpg")
+    no-repeat;
+  background-size: cover;
+}
+
+.bg-banner-3 {
+  background: url("https://cdn.properties.emaar.com/wp-content/uploads/2024/09/PORTOVIEW_RYM_HOMEPAGE_BANNER_1920x1080.jpg")
+    no-repeat;
+  background-size: cover;
+}
+
+.bg-banner-4 {
+  background: url("https://cdn.properties.emaar.com/wp-content/uploads/2024/09/GREENRIDGE_ES_HOMEPAGE_BANNER_1920x1080.jpg")
+    no-repeat;
+  background-size: cover;
+}
+
+.bg-banner-5 {
+  background: url("https://cdn.properties.emaar.com/wp-content/uploads/2024/09/LAVITA_OASIS_HOMEPAGE_BANNER_DESKTOP.jpg")
+    no-repeat;
+  background-size: cover;
+}
+
+.bg-banner-6 {
+  background: url("https://cdn.properties.emaar.com/wp-content/uploads/2024/07/AVENA_TV_HOMEPAGE_BANNER_DESKTOP.jpg")
+    no-repeat;
+  background-size: cover;
+}
+
+.lang-link:hover {
+  .lang-link-span {
+    display: flex;
+  }
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
