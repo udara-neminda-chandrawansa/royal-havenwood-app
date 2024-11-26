@@ -3,7 +3,7 @@ import CardType2 from "./CardType2";
 
 function HomeSection2() {
   return (
-    <div className="flex min-h-[100vh] max-[992px]:flex-col lg:h-fit">
+    <div className="flex min-h-[100dvh] max-[992px]:flex-col lg:h-fit">
       {/*Title*/}
       <div className="flex flex-col items-start gap-5 w-1/3 px-3 py-12 max-[992px]:w-full lg:h-fit">
         <span className="g-font-2 text-xs tracking-widest text-gray-600 uppercase flex items-center gap-5">

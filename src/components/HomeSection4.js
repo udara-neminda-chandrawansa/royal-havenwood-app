@@ -2,7 +2,7 @@ import { Button } from "@headlessui/react";
 
 function HomeSection4() {
   return (
-    <div className="h-[100vh] flex items-start px-3 max-lg:h-fit max-[992px]:flex-col">
+    <div className="h-[100dvh] flex items-start px-3 max-lg:h-fit max-[992px]:flex-col">
       <div className="flex flex-col gap-3 w-1/2 py-2 max-[992px]:w-full">
         <span className="g-font-2 text-xs tracking-widest text-gray-600 uppercase flex items-center gap-5">
           A Digital Experience

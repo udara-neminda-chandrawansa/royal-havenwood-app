@@ -7,7 +7,7 @@ export default function Sidebar() {
   };
 
   return (
-    <div className="z-10 bg-white hidden max-sm:text-sm h-[100vh]" id="sidebar">
+    <div className="z-10 bg-white hidden max-sm:text-sm h-[100dvh]" id="sidebar">
       <Button displayText="X" onClick={handleClosing} />
       <ul className="w-[300px] flex flex-col gap-3 flex-grow p-3 border-t-[1px] border-t-gray-300">
         <li>

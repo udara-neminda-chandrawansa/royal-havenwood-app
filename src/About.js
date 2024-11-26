@@ -63,7 +63,7 @@ export default function About() {
   return (
     <>
       {/*banner + nav*/}
-      <div className="text-black flex h-[90vh] w-full">
+      <div className="text-black flex h-[90dvh] w-full">
         <Sidebar></Sidebar>
         <div className="flex flex-col h-fit">
           {/*nav*/}
@@ -105,13 +105,13 @@ export default function About() {
         </div>
       </div>
       {/*owners message*/}
-      <div className="p-4 mt-[150px] h-[70vh] max-[992px]:h-[90vh] max-sm:h-[80vh] max-[992px]:flex flex-col justify-center items-center max-[992px]:mt-0">
+      <div className="p-4 mt-[150px] h-[70dvh] max-[992px]:h-[90dvh] max-sm:h-[80dvh] max-[992px]:flex flex-col justify-center items-center max-[992px]:mt-0">
         <img
           src="https://cdn.properties.emaar.com/wp-content/uploads/2022/04/chairman-image-1620x740-1-1620x740.png"
           alt="founder"
         ></img>
         {/*floating white square with text*/}
-        <div className="absolute top-[140vh] h-fit max-[992px]:relative max-[992px]:top-5">
+        <div className="absolute top-[140dvh] h-fit max-[992px]:relative max-[992px]:top-5">
           <div className="bg-white w-2/5 max-[992px]:w-full p-8 py-12 h-fit flex flex-col justify-center gap-3">
             <h1 className="text-2xl uppercase font-medium">
               "WE ARE SHARPENING OUR STRATEGY TO BE ONE OF THE WORLD'S MOST
@@ -130,7 +130,7 @@ export default function About() {
         </div>
       </div>
       {/*who we are*/}
-      <div className="h-[70vh] flex flex-col justify-center gap-4 max-[992px]:h-fit max-[992px]:justify-start">
+      <div className="h-[70dvh] flex flex-col justify-center gap-4 max-[992px]:h-fit max-[992px]:justify-start">
         <h1 className="text-5xl text-center uppercase max-sm:text-3xl">
           who we are
         </h1>
@@ -188,7 +188,7 @@ export default function About() {
         </div>
       </div>
       {/*int. destinations*/}
-      <div className="flex min-h-[100vh] max-[992px]:flex-col lg:h-fit">
+      <div className="flex min-h-[100dvh] max-[992px]:flex-col lg:h-fit">
         {/*Title*/}
         <div className="flex flex-col items-start gap-5 w-1/3 px-3 py-12 max-[992px]:w-full lg:h-fit">
           <span className="g-font-2 text-xs tracking-widest text-gray-600 uppercase flex items-center gap-5">
@@ -285,7 +285,7 @@ export default function About() {
         </span>
       </div>
       {/*other UNC businesses*/}
-      <div className="h-[100vh] flex items-center justify-center px-3 py-12 max-lg:h-fit">
+      <div className="h-[100dvh] flex items-center justify-center px-3 py-12 max-lg:h-fit">
         <div className="flex flex-col gap-3 w-full">
           <span className="g-font-2 text-xs tracking-widest text-gray-600 uppercase flex items-center gap-5">
             More
@@ -343,7 +343,7 @@ export default function About() {
         </div>
       </div>
       {/*3 cards - card container*/}
-      <div className="bg-gray-50 h-[80vh] flex justify-between items-center gap-8 px-4 max-[992px]:h-fit max-[992px]:flex-col">
+      <div className="bg-gray-50 h-[80dvh] flex justify-between items-center gap-8 px-4 max-[992px]:h-fit max-[992px]:flex-col">
         <CardType3
           titleText={"INVESTOR RELATIONS"}
           contentText={
@@ -376,7 +376,7 @@ export default function About() {
         />
       </div>
       {/*featured awards*/}
-      <div className="h-[100vh] bg-white flex flex-col justify-center w-full">
+      <div className="h-[100dvh] bg-white flex flex-col justify-center w-full">
         {/*heading*/}
         <h1 className="uppercase text-center text-5xl max-lg:text-4xl leading-snug">
           Featured awards

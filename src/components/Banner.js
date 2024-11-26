@@ -259,7 +259,7 @@ export default function Banner() {
   //
   return (
     <div
-      className={`w-full flex flex-col justify-between p-1 h-[100vh] bg-cover ${items[2]} transition-all delay-75 text-white`}
+      className={`w-full flex flex-col justify-between p-1 h-[100dvh] bg-cover ${items[2]} transition-all delay-75 text-white`}
     >
       <Nav nav_burger_color_css={"text-white"} />
       {/*shadow*/}

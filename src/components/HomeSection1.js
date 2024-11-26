@@ -3,7 +3,7 @@ import CardType1 from "./CardType1";
 
 function HomeSection1() {
   return (
-    <div className="h-[100vh] flex flex-col items-start py-12 px-3 gap-6 max-[600px]:h-full">
+    <div className="h-[100dvh] flex flex-col items-start py-12 px-3 gap-6 max-[600px]:h-full">
       <span className="g-font-2 text-xs tracking-widest text-gray-600 uppercase flex items-center gap-5">
         New
         <div className="w-[120px] border-t-[1px] border-t-gray-400"></div>
@@ -19,7 +19,7 @@ function HomeSection1() {
             cardImage={
               "https://royalhavenwood.com/wp-content/uploads/2024/07/Untitled-design-1.png"
             }
-            extraClasses={"h-[70vh] w-[400px] max-[600px]:w-full"}
+            extraClasses={"h-[70dvh] w-[400px] max-[600px]:w-full"}
             btnText={"Try It Now"}
           />
           <CardType1
@@ -29,7 +29,7 @@ function HomeSection1() {
             cardImage={
               "https://royalhavenwood.com/wp-content/uploads/2024/07/Untitled-design-2.png"
             }
-            extraClasses={"h-[70vh] w-[400px] max-[600px]:w-full"}
+            extraClasses={"h-[70dvh] w-[400px] max-[600px]:w-full"}
             btnText={"Read More"}
           />
           <CardType1
@@ -41,7 +41,7 @@ function HomeSection1() {
             cardImage={
               "https://royalhavenwood.com/wp-content/uploads/2024/07/Untitled-design-3.png"
             }
-            extraClasses={"h-[70vh] w-[400px] max-[600px]:w-full"}
+            extraClasses={"h-[70dvh] w-[400px] max-[600px]:w-full"}
             btnText={"Read More"}
           />
         </span>
