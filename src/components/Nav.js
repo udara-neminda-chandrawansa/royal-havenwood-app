@@ -2,14 +2,19 @@ import Button from "./Button";
 import { Link } from "wouter";
 import logo from "../images/logo.png";
 
-export default function Nav({ theme, nav_burger_color_css }) {
+export default function Nav({
+  theme,
+  bgColor,
+  textColor,
+  nav_burger_color_css,
+}) {
   const handleOpening = () => {
     //alert('Button clicked!');
     document.getElementById("sidebar").style.display = "inline-block";
   };
 
   return (
-    <nav className="flex justify-between px-6 z-10 w-full">
+    <nav className={`flex justify-between px-6 py-1 z-10 w-full bg-${bgColor}`}>
       {/*left side*/}
       <span className="flex">
         <span className="hidden max-lg:flex">
@@ -17,11 +22,9 @@ export default function Nav({ theme, nav_burger_color_css }) {
             displayText={
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
                 fill="currentColor"
-                className="bi bi-list"
-                viewBox="0 0 16 16"
+                className="bi bi-list w-[20px] h-[16px]"
+                viewBox="0 0 20 16"
               >
                 <path
                   fillRule="evenodd"
@@ -30,7 +33,7 @@ export default function Nav({ theme, nav_burger_color_css }) {
               </svg>
             }
             theme="transparent"
-            extraClasses={nav_burger_color_css}
+            extraClasses={nav_burger_color_css + " p-0"}
             onClick={handleOpening}
           />
         </span>
@@ -39,7 +42,9 @@ export default function Nav({ theme, nav_burger_color_css }) {
             <img src={logo} alt="logo" className="h-8"></img>
           </Link>
         </h2>
-        <ul className="flex gap-5 p-5 uppercase text-xs optima-bold tracking-wider max-lg:hidden">
+        <ul
+          className={`flex gap-5 p-5 text-xs tracking-wider uppercase optima-bold max-lg:hidden text-${textColor}`}
+        >
           <li>
             <Link href="/about">
               <p className="p-1 underline-offset-[20px] hover:underline">
@@ -67,10 +72,12 @@ export default function Nav({ theme, nav_burger_color_css }) {
         </ul>
       </span>
       {/*right side*/}
-      <span className="flex justify-center items-center max-sm:hidden">
-        <ul className="flex gap-5 p-3 uppercase text-xs optima-bold tracking-widest">
+      <span className="flex items-center justify-center max-sm:hidden">
+        <ul
+          className={`flex gap-5 p-3 text-xs tracking-widest uppercase optima-bold text-${textColor}`}
+        >
           <li>
-            <span className="p-1 inline-block lang-link">
+            <span className="inline-block p-1 lang-link">
               <span className="flex">
                 Eng
                 <svg
@@ -86,7 +93,7 @@ export default function Nav({ theme, nav_burger_color_css }) {
                   />
                 </svg>
               </span>
-              <span className="hidden flex-col text-black lang-link-span absolute">
+              <span className="absolute flex-col hidden text-black lang-link-span">
                 <ul className="bg-white w-[100px]">
                   <li className="p-1 border-solid border-[1px] border-gray-500 hover:bg-gray-200">
                     <a href="https://www.google.com">Sinhala</a>
@@ -99,7 +106,7 @@ export default function Nav({ theme, nav_burger_color_css }) {
             </span>
           </li>
           <li>
-            <a href="https://www.google.com" className="p-1 flex">
+            <a href="https://www.google.com" className="flex p-1">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -116,7 +123,7 @@ export default function Nav({ theme, nav_burger_color_css }) {
             </a>
           </li>
           <li>
-            <a href="https://www.google.com" className="p-1 flex">
+            <a href="https://www.google.com" className="flex p-1">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"

@@ -19,7 +19,7 @@ function HomeSection4() {
             alt="app"
           ></img>
           <p className="g-font-1 text-xl w-fit">
-            UNC One allows homeowners and tenants to fully manage their
+            Royal Havenwood One allows homeowners and tenants to fully manage their
             property from their phone anytime anywhere.
           </p>
           <span className="flex justify-between p-3 max-sm:flex-col max-sm:gap-6">
@@ -171,7 +171,7 @@ function HomeSection4() {
               alt="app"
             ></img>
             <h1 className="text-3xl p-3 uppercase w-[300px] max-sm:text-2xl">
-              Download UNC One App
+              Download Royal Havenwood One App
             </h1>
           </span>
           {/*app stores*/}

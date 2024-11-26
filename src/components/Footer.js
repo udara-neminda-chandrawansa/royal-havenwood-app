@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import logo from "../images/logo.png";
 import Button from "./Button";
 
 function Footer() {
@@ -51,8 +52,8 @@ function Footer() {
           <div className="flex w-1/2 max-[992px]:w-full">
             {/*logo*/}
             <div className="w-1/2 flex items-center max-[992px]:w-fit">
-              <h1 className="text-3xl text-gray-700 tracking-tighter h-fit cursor-pointer">
-                UNC
+              <h1 className="tracking-tighter text-gray-700 cursor-pointer h-fit">
+                <img src={logo} alt="logo" className="h-8"></img>
               </h1>
               <span className="border-l-gray-400 border-l ml-11 h-[40px]"></span>
             </div>
@@ -146,7 +147,7 @@ function Footer() {
             className="flex justify-between items-center w-full uppercase g-font-3 text-xs tracking-widest py-3 max-[992px]:text-sm cursor-pointer"
             onClick={() => toggleSection("aboutUNC")}
           >
-            About UNC
+            About Royal Havenwood
             <svg
               xmlns="http://www.w3.org/2000/svg"
               xmlSpace="preserve"
@@ -167,41 +168,41 @@ function Footer() {
                 : "max-h-screen"
             }`}
           >
-            <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
+            <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
               <a href="https://www.google.com/">Who we are</a>
             </li>
-            <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
+            <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
               <a href="https://www.google.com/">CONTACT US</a>
             </li>
-            <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
+            <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
               <a href="https://www.google.com/">WE CARE</a>
             </li>
-            <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
+            <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
               <a href="https://www.google.com/">FAQ</a>
             </li>
-            <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
+            <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
               <a href="https://www.google.com/">CAREERS</a>
             </li>
-            <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
+            <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
               <a href="https://www.google.com/">WHISTLEBLOWER LINE</a>
             </li>
-            <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
+            <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
               <a href="https://www.google.com/">Investor Relations</a>
             </li>
-            <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
+            <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
               <a href="https://www.google.com/">Press Releases</a>
             </li>
-            <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
-              <a href="https://www.google.com/">UNC Blogs</a>
+            <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
+              <a href="https://www.google.com/">Royal Havenwood Blogs</a>
             </li>
-            <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
+            <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
               <a href="https://www.google.com/">Mortgage Calculator</a>
             </li>
-            <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
+            <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
               <a href="https://www.google.com/">Scam Alerts</a>
             </li>
-            <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
-              <a href="https://www.google.com/">UNC Sustainability</a>
+            <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
+              <a href="https://www.google.com/">Royal Havenwood Sustainability</a>
             </li>
           </ul>
         </div>
@@ -231,39 +232,39 @@ function Footer() {
                 : "max-h-screen"
             }`}
           >
-            <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
+            <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
               <a href="https://www.google.com/">the oasis</a>
             </li>
-            <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
+            <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
               <a href="https://www.google.com/">
                 the heights country club & wellness
               </a>
             </li>
-            <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
+            <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
               <a href="https://www.google.com/">address al marjan island</a>
             </li>
-            <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
-              <a href="https://www.google.com/">dubai hills estate</a>
+            <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
+              <a href="https://www.google.com/">Colombo hills estate</a>
             </li>
-            <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
-              <a href="https://www.google.com/">dubai creek harbour</a>
+            <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
+              <a href="https://www.google.com/">Colombo creek harbour</a>
             </li>
-            <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
+            <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
               <a href="https://www.google.com/">the valley</a>
             </li>
-            <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
-              <a href="https://www.google.com/">UNC beachfront</a>
+            <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
+              <a href="https://www.google.com/">Royal Havenwood beachfront</a>
             </li>
-            <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
+            <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
               <a href="https://www.google.com/">rashid yachts & marina</a>
             </li>
-            <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
-              <a href="https://www.google.com/">dubai marina</a>
+            <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
+              <a href="https://www.google.com/">Colombo marina</a>
             </li>
-            <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
-              <a href="https://www.google.com/">downtown dubai</a>
+            <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
+              <a href="https://www.google.com/">downtown Colombo</a>
             </li>
-            <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
+            <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
               <a href="https://www.google.com/">arabian ranches</a>
             </li>
           </ul>
@@ -294,51 +295,51 @@ function Footer() {
                 : "max-h-screen"
             }`}
           >
-            <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
+            <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
               <a href="https://www.google.com/">
                 velora 2 at the valley phase 2
               </a>
             </li>
-            <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
+            <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
               <a href="https://www.google.com/">
-                vida recedencies club point at dubai hills estate
+                vida recedencies club point at Colombo hills estate
               </a>
             </li>
-            <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
+            <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
               <a href="https://www.google.com/">
                 pier points at rashid yachts & marina
               </a>
             </li>
-            <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
+            <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
               <a href="https://www.google.com/">
                 portor view at rashid yachts & marina
               </a>
             </li>
-            <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
-              <a href="https://www.google.com/">greenridge at unc south</a>
+            <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
+              <a href="https://www.google.com/">greenridge at Royal Havenwood south</a>
             </li>
-            <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
+            <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
               <a href="https://www.google.com/">
-                golf hillside at dubai hills estate
+                golf hillside at Colombo hills estate
               </a>
             </li>
-            <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
+            <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
               <a href="https://www.google.com/">lavita at the oasis</a>
             </li>
-            <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
+            <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
               <a href="https://www.google.com/">
-                address residencies at dubai hills estate
+                address residencies at Colombo hills estate
               </a>
             </li>
-            <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
+            <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
               <a href="https://www.google.com/">
-                address residencies at dubai creek harbour
+                address residencies at Colombo creek harbour
               </a>
             </li>
-            <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
+            <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
               <a href="https://www.google.com/">palmiera 3 at the oasis</a>
             </li>
-            <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
+            <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
               <a href="https://www.google.com/">view all properties</a>
             </li>
           </ul>
@@ -348,7 +349,7 @@ function Footer() {
             className="flex justify-between items-center w-full uppercase g-font-3 text-xs tracking-widest py-3 max-[992px]:text-sm cursor-pointer"
             onClick={() => toggleSection("uncInternational")}
           >
-            UNC International
+            Royal Havenwood International
             <svg
               xmlns="http://www.w3.org/2000/svg"
               xmlSpace="preserve"
@@ -369,25 +370,25 @@ function Footer() {
                 : "max-h-screen"
             }`}
           >
-            <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
+            <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
               <a href="https://www.google.com/">ksa</a>
             </li>
-            <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
+            <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
               <a href="https://www.google.com/">india</a>
             </li>
-            <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
+            <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
               <a href="https://www.google.com/">pakistan</a>
             </li>
-            <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
+            <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
               <a href="https://www.google.com/">egypt</a>
             </li>
-            <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
+            <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
               <a href="https://www.google.com/">morocco</a>
             </li>
-            <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
+            <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
               <a href="https://www.google.com/">turkey</a>
             </li>
-            <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
+            <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
               <a href="https://www.google.com/">china</a>
             </li>
           </ul>
@@ -400,7 +401,7 @@ function Footer() {
             className="flex justify-between items-center w-full uppercase g-font-3 text-xs tracking-widest py-3 max-[992px]:text-sm cursor-pointer"
             onClick={() => toggleSection("uncEntertainment")}
           >
-            UNC entertainment
+            Royal Havenwood entertainment
             <svg
               xmlns="http://www.w3.org/2000/svg"
               xmlSpace="preserve"
@@ -421,28 +422,28 @@ function Footer() {
                 : "max-h-screen"
             }`}
           >
-            <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
-              <a href="https://www.google.com/">burj khalifa</a>
+            <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
+              <a href="https://www.google.com/">Lotus Tower</a>
             </li>
-            <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
+            <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
               <a href="https://www.google.com/">reel cinemas</a>
             </li>
-            <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
-              <a href="https://www.google.com/">dubai opera</a>
+            <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
+              <a href="https://www.google.com/">Colombo opera</a>
             </li>
-            <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
-              <a href="https://www.google.com/">dubai ice rink</a>
+            <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
+              <a href="https://www.google.com/">Colombo ice rink</a>
             </li>
-            <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
+            <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
               <a href="https://www.google.com/">kidzania</a>
             </li>
-            <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
-              <a href="https://www.google.com/">sky views dubai</a>
+            <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
+              <a href="https://www.google.com/">sky views Colombo</a>
             </li>
-            <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
-              <a href="https://www.google.com/">dubai aquarium</a>
+            <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
+              <a href="https://www.google.com/">Colombo aquarium</a>
             </li>
-            <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
+            <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
               <a href="https://www.google.com/">view all</a>
             </li>
           </ul>
@@ -452,7 +453,7 @@ function Footer() {
             className="flex justify-between items-center w-full uppercase g-font-3 text-xs tracking-widest py-3 max-[992px]:text-sm cursor-pointer"
             onClick={() => toggleSection("uncMalls")}
           >
-            unc malls
+            Royal Havenwood malls
             <svg
               xmlns="http://www.w3.org/2000/svg"
               xmlSpace="preserve"
@@ -473,22 +474,22 @@ function Footer() {
                 : "max-h-screen"
             }`}
           >
-            <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
-              <a href="https://www.google.com/">dubai mall</a>
+            <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
+              <a href="https://www.google.com/">Colombo mall</a>
             </li>
-            <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
-              <a href="https://www.google.com/">dubai marina mall</a>
+            <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
+              <a href="https://www.google.com/">Colombo marina mall</a>
             </li>
-            <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
-              <a href="https://www.google.com/">dubai hills mall</a>
+            <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
+              <a href="https://www.google.com/">Colombo hills mall</a>
             </li>
-            <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
+            <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
               <a href="https://www.google.com/">gold and diamod park</a>
             </li>
-            <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
+            <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
               <a href="https://www.google.com/">souk al bahar</a>
             </li>
-            <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
+            <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
               <a href="https://www.google.com/">the springs souk</a>
             </li>
           </ul>
@@ -498,7 +499,7 @@ function Footer() {
             className="flex justify-between items-center w-full uppercase g-font-3 text-xs tracking-widest py-3 max-[992px]:text-sm cursor-pointer"
             onClick={() => toggleSection("uncHospitality")}
           >
-            unc hospitality
+            Royal Havenwood hospitality
             <svg
               xmlns="http://www.w3.org/2000/svg"
               xmlSpace="preserve"
@@ -519,19 +520,19 @@ function Footer() {
                 : "max-h-screen"
             }`}
           >
-            <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
+            <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
               <a href="https://www.google.com/">address hotels + resorts</a>
             </li>
-            <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
+            <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
               <a href="https://www.google.com/">vida hotels and resorts</a>
             </li>
-            <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
-              <a href="https://www.google.com/">armani hotels dubai</a>
+            <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
+              <a href="https://www.google.com/">armani hotels Colombo</a>
             </li>
-            <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
+            <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
               <a href="https://www.google.com/">al alamein hotel egypt</a>
             </li>
-            <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
+            <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
               <a href="https://www.google.com/">rove hotels</a>
             </li>
           </ul>
@@ -541,7 +542,7 @@ function Footer() {
             className="flex justify-between items-center w-full uppercase g-font-3 text-xs tracking-widest py-3 max-[992px]:text-sm cursor-pointer"
             onClick={() => toggleSection("uncLeisureGroup")}
           >
-            UNC leisure group
+            Royal Havenwood leisure group
             <svg
               xmlns="http://www.w3.org/2000/svg"
               xmlSpace="preserve"
@@ -562,22 +563,22 @@ function Footer() {
                 : "max-h-screen"
             }`}
           >
-            <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
-              <a href="https://www.google.com/">dubai polo & equestrian club</a>
+            <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
+              <a href="https://www.google.com/">Colombo polo & equestrian club</a>
             </li>
-            <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
+            <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
               <a href="https://www.google.com/">arabian ranches golf club</a>
             </li>
-            <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
-              <a href="https://www.google.com/">dubai hills golf club</a>
+            <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
+              <a href="https://www.google.com/">Colombo hills golf club</a>
             </li>
-            <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
-              <a href="https://www.google.com/">dubai marina yachts club</a>
+            <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
+              <a href="https://www.google.com/">Colombo marina yachts club</a>
             </li>
-            <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
+            <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
               <a href="https://www.google.com/">greek marina yachts club</a>
             </li>
-            <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
+            <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
               <a href="https://www.google.com/">veo fitness</a>
             </li>
           </ul>
@@ -612,80 +613,80 @@ function Footer() {
             }`}
           >
             <ul className="flex flex-col justify-between gap-4 w-1/4 uppercase g-font-1 tracking-widest text-xs pt-3 max-[992px]:w-full">
-              <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
+              <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
                 <a href="https://www.google.com/">
-                  apartment for sale in dubai
+                  apartment for sale in Colombo
                 </a>
               </li>
-              <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
-                <a href="https://www.google.com/">villa for sale in dubai</a>
+              <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
+                <a href="https://www.google.com/">villa for sale in Colombo</a>
               </li>
-              <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
+              <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
                 <a href="https://www.google.com/">
-                  townhouse for sale in dubai
-                </a>
-              </li>
-            </ul>
-            <ul className="flex flex-col px-4 max-[992px]:px-0 justify-between gap-4 w-1/4 uppercase g-font-1 tracking-widest text-xs pt-3 max-[992px]:w-full">
-              <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
-                <a href="https://www.google.com/">
-                  1 bedroom apartments for sale in dubai
-                </a>
-              </li>
-              <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
-                <a href="https://www.google.com/">
-                  3 bedroom villas for sale in dubai
-                </a>
-              </li>
-              <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
-                <a href="https://www.google.com/">
-                  penthouse for sale in dubai
+                  townhouse for sale in Colombo
                 </a>
               </li>
             </ul>
             <ul className="flex flex-col px-4 max-[992px]:px-0 justify-between gap-4 w-1/4 uppercase g-font-1 tracking-widest text-xs pt-3 max-[992px]:w-full">
-              <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
+              <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
                 <a href="https://www.google.com/">
-                  2 bedroom apartment in dubai
+                  1 bedroom apartments for sale in Colombo
                 </a>
               </li>
-              <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
+              <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
                 <a href="https://www.google.com/">
-                  4 bedroom villas for sale in dubai
+                  3 bedroom villas for sale in Colombo
                 </a>
               </li>
-              <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
+              <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
                 <a href="https://www.google.com/">
-                  property investment in dubai
+                  penthouse for sale in Colombo
                 </a>
               </li>
             </ul>
             <ul className="flex flex-col px-4 max-[992px]:px-0 justify-between gap-4 w-1/4 uppercase g-font-1 tracking-widest text-xs pt-3 max-[992px]:w-full">
-              <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
+              <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
                 <a href="https://www.google.com/">
-                  3 bedroom apartments in dubai
+                  2 bedroom apartment in Colombo
                 </a>
               </li>
-              <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
+              <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
                 <a href="https://www.google.com/">
-                  5 bedroom villas for sale in dubai
+                  4 bedroom villas for sale in Colombo
                 </a>
               </li>
-              <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
-                <a href="https://www.google.com/">off-plan projects in dubai</a>
+              <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
+                <a href="https://www.google.com/">
+                  property investment in Colombo
+                </a>
+              </li>
+            </ul>
+            <ul className="flex flex-col px-4 max-[992px]:px-0 justify-between gap-4 w-1/4 uppercase g-font-1 tracking-widest text-xs pt-3 max-[992px]:w-full">
+              <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
+                <a href="https://www.google.com/">
+                  3 bedroom apartments in Colombo
+                </a>
+              </li>
+              <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
+                <a href="https://www.google.com/">
+                  5 bedroom villas for sale in Colombo
+                </a>
+              </li>
+              <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
+                <a href="https://www.google.com/">off-plan projects in Colombo</a>
               </li>
             </ul>
           </div>
         </div>
       </div>
       {/*row 4*/}
-      <div className="flex h-fit bg-white">
+      <div className="flex bg-white h-fit">
         <ul className="flex px-4 py-5 max-[992px]:px-0 justify-center gap-6 w-full uppercase g-font-1 tracking-widest text-xs max-md:flex-col max-md:px-4 max-md:pb-8 max-[992px]:w-full">
-          <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
+          <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
             <a href="https://www.google.com/">privacy policy</a>
           </li>
           <li className="py-1 border-l-gray-300 border-l-[1px] pl-4 max-md:pl-0 max-md:border-none hover:text-blue-300 delay-75 transition-all w-fit">
-            <a href="https://www.google.com/">unc asset usage policy</a>
+            <a href="https://www.google.com/">royal havenwood asset usage policy</a>
           </li>
           <li className="py-1 border-l-gray-300 border-l-[1px] pl-4 max-md:pl-0 max-md:border-none hover:text-blue-300 delay-75 transition-all w-fit">
             <a href="https://www.google.com/">terms & conditions</a>

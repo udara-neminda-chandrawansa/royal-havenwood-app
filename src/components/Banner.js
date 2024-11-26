@@ -261,11 +261,11 @@ export default function Banner() {
     <div
       className={`w-full flex flex-col justify-between p-1 h-[100dvh] bg-cover ${items[2]} transition-all delay-75 text-white`}
     >
-      <Nav nav_burger_color_css={"text-white"} />
+      <Nav theme={"dark"} bgColor={"white"} textColor={"black"}></Nav>
       {/*shadow*/}
       <div className="absolute inset-0 bg-gradient-to-br from-[#1a2e33] to-transparent"></div>
       {/*carousel + banner*/}
-      <div className="w-2/3 flex flex-col justify-between p-3 z-10 mt-12">
+      <div className="z-10 flex flex-col justify-between w-2/3 p-3 mt-12">
         <p className="uppercase px-3 py-1 border-[1px] border-solid border-white w-fit my-8 text-sm">
           Our Services
         </p>
@@ -273,7 +273,7 @@ export default function Banner() {
           <h1 className="text-5xl uppercase max-md:text-3xl max-sm:text-2xl">
             {items[0]}
           </h1>
-          <p className="text-2xl g-font-1 capitalize max-md:text-xl max-sm:text-xs">
+          <p className="text-2xl capitalize g-font-1 max-md:text-xl max-sm:text-xs">
             {items[1]}
           </p>
         </span>
@@ -287,7 +287,7 @@ export default function Banner() {
           <div className="w-[97%] bg-white rounded z-10 text-black flex items-center">
             <div className="w-1/5 h-[80%] z-20 flex justify-around items-center">
               <ul>
-                <li className="uppercase text-xs tracking-widest">
+                <li className="text-xs tracking-widest uppercase">
                   Property Type
                 </li>
                 <li>
@@ -313,7 +313,7 @@ export default function Banner() {
                 </PopoverButton>
                 <PopoverPanel
                   anchor="bottom"
-                  className="shadow-md w-1/4 flex flex-wrap z-10 bg-white p-1 rounded select-none"
+                  className="z-10 flex flex-wrap w-1/4 p-1 bg-white rounded shadow-md select-none"
                 >
                   {[
                     "House",
@@ -324,7 +324,7 @@ export default function Banner() {
                     "Warehouse",
                   ].map((label, index) => (
                     <Field
-                      className="flex items-center gap-3 w-1/2 p-2"
+                      className="flex items-center w-1/2 gap-3 p-2"
                       key={label}
                     >
                       <Checkbox
@@ -364,7 +364,7 @@ export default function Banner() {
             </div>
             <div className="border-l-gray-300 border-l-[1px] w-1/5 h-[80%] z-20 flex justify-around items-center">
               <ul>
-                <li className="uppercase text-xs tracking-widest">Bedroom</li>
+                <li className="text-xs tracking-widest uppercase">Bedroom</li>
                 <li>{getBedroomSelectionMessage()}</li>
               </ul>
               <Popover className="relative">
@@ -384,7 +384,7 @@ export default function Banner() {
                 </PopoverButton>
                 <PopoverPanel
                   anchor="bottom"
-                  className="shadow-md w-1/4 flex flex-wrap z-10 bg-white p-1 rounded select-none"
+                  className="z-10 flex flex-wrap w-1/4 p-1 bg-white rounded shadow-md select-none"
                 >
                   {[
                     "1 Bedroom",
@@ -394,7 +394,7 @@ export default function Banner() {
                     "5+ Bedrooms",
                   ].map((label, index) => (
                     <Field
-                      className="flex items-center gap-3 w-1/2 p-2"
+                      className="flex items-center w-1/2 gap-3 p-2"
                       key={label}
                     >
                       <Checkbox
@@ -434,7 +434,7 @@ export default function Banner() {
             </div>
             <div className="border-l-gray-300 border-l-[1px] w-1/5 h-[80%] z-20 flex justify-around items-center">
               <ul>
-                <li className="uppercase text-xs tracking-widest">
+                <li className="text-xs tracking-widest uppercase">
                   Price Range
                 </li>
                 <li>
@@ -460,13 +460,13 @@ export default function Banner() {
                 </PopoverButton>
                 <PopoverPanel
                   anchor="bottom"
-                  className="shadow-md w-1/4 flex flex-wrap z-10 bg-white p-1 rounded select-none"
+                  className="z-10 flex flex-wrap w-1/4 p-1 bg-white rounded shadow-md select-none"
                 >
-                  <span className="flex w-full justify-between items-center gap-1">
-                    <span className="p-1 flex flex-col justify-center">
+                  <span className="flex items-center justify-between w-full gap-1">
+                    <span className="flex flex-col justify-center p-1">
                       <label
                         htmlFor="sel-min-price"
-                        className="uppercase w-full text-xs"
+                        className="w-full text-xs uppercase"
                       >
                         Min Price (LKR)
                       </label>
@@ -527,10 +527,10 @@ export default function Banner() {
                       </select>
                     </span>
                     to
-                    <span className="p-1 flex flex-col justify-center">
+                    <span className="flex flex-col justify-center p-1">
                       <label
                         htmlFor="sel-max-price"
-                        className="uppercase w-full text-xs"
+                        className="w-full text-xs uppercase"
                       >
                         Max Price (LKR)
                       </label>
@@ -607,7 +607,7 @@ export default function Banner() {
             </div>
             <div className="border-l-gray-300 border-l-[1px] w-1/5 h-[80%] z-20 flex justify-around items-center">
               <ul>
-                <li className="uppercase text-xs tracking-widest">
+                <li className="text-xs tracking-widest uppercase">
                   Communities
                 </li>
                 <li>
@@ -633,12 +633,12 @@ export default function Banner() {
                 </PopoverButton>
                 <PopoverPanel
                   anchor="bottom"
-                  className="shadow-md w-full flex flex-col z-10 bg-white p-1 rounded select-none"
+                  className="z-10 flex flex-col w-full p-1 bg-white rounded shadow-md select-none"
                 >
                   <span className="flex">
                     {/* Featured Community */}
                     <span className="w-1/3">
-                      <p className="uppercase text-xs text-gray-500 tracking-widest g-font-1 p-3">
+                      <p className="p-3 text-xs tracking-widest text-gray-500 uppercase g-font-1">
                         Featured Community
                       </p>
                       {[
@@ -648,7 +648,7 @@ export default function Banner() {
                         "Community 4",
                       ].map((label, index) => (
                         <Field
-                          className="flex items-center gap-3 w-1/2 p-2"
+                          className="flex items-center w-1/2 gap-3 p-2"
                           key={label}
                         >
                           <Checkbox
@@ -675,13 +675,13 @@ export default function Banner() {
                     </span>
                     {/* More Communities */}
                     <span className="w-2/3">
-                      <p className="uppercase text-xs text-gray-500 tracking-widest g-font-1 p-3">
+                      <p className="p-3 text-xs tracking-widest text-gray-500 uppercase g-font-1">
                         More Communities
                       </p>
                       <span className="flex">
                         {["Community 5", "Community 6"].map((label, index) => (
                           <Field
-                            className="flex items-center gap-3 w-fit p-2"
+                            className="flex items-center gap-3 p-2 w-fit"
                             key={label}
                           >
                             <Checkbox
@@ -735,7 +735,7 @@ export default function Banner() {
         <div className="h-[50px] flex items-center justify-center">
           <div className="flex items-center gap-3">
             <div
-              className="bg-black h-4 w-4 rounded z-10 car-btn"
+              className="z-10 w-4 h-4 bg-black rounded car-btn"
               id="car-btn-1"
             >
               <Button
@@ -746,7 +746,7 @@ export default function Banner() {
               />
             </div>
             <div
-              className="bg-white h-4 w-4 rounded z-10 car-btn"
+              className="z-10 w-4 h-4 bg-white rounded car-btn"
               id="car-btn-2"
             >
               <Button
@@ -757,7 +757,7 @@ export default function Banner() {
               />
             </div>
             <div
-              className="bg-white h-4 w-4 rounded z-10 car-btn"
+              className="z-10 w-4 h-4 bg-white rounded car-btn"
               id="car-btn-3"
             >
               <Button
@@ -768,7 +768,7 @@ export default function Banner() {
               />
             </div>
             <div
-              className="bg-white h-4 w-4 rounded z-10 car-btn"
+              className="z-10 w-4 h-4 bg-white rounded car-btn"
               id="car-btn-4"
             >
               <Button
@@ -779,7 +779,7 @@ export default function Banner() {
               />
             </div>
             <div
-              className="bg-white h-4 w-4 rounded z-10 car-btn"
+              className="z-10 w-4 h-4 bg-white rounded car-btn"
               id="car-btn-5"
             >
               <Button
@@ -790,7 +790,7 @@ export default function Banner() {
               />
             </div>
             <div
-              className="bg-white h-4 w-4 rounded z-10 car-btn"
+              className="z-10 w-4 h-4 bg-white rounded car-btn"
               id="car-btn-6"
             >
               <Button

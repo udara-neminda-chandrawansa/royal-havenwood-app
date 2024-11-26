@@ -67,7 +67,7 @@ export default function About() {
         <Sidebar></Sidebar>
         <div className="flex flex-col h-fit">
           {/*nav*/}
-          <span className="py-1">
+          <span className="p-1">
             <Nav theme={"dark"}></Nav>
           </span>
           {/*banner (img + overview text)*/}
@@ -79,23 +79,23 @@ export default function About() {
             {/*floating white square with text*/}
             <div className="absolute top-[450px] w-full h-fit max-[992px]:relative max-[992px]:top-5">
               <div className="bg-white w-2/3 max-[992px]:w-full p-4 py-12 h-fit flex flex-col justify-center">
-                <span className="p-1 g-font-2 text-xs tracking-widest text-gray-600 uppercase flex items-center gap-5">
+                <span className="flex items-center gap-5 p-1 text-xs tracking-widest text-gray-600 uppercase g-font-2">
                   Overview
                   <div className="w-[120px] border-t-[1px] border-t-gray-400"></div>
                 </span>
                 <h1 className="text-5xl uppercase max-sm:text-3xl">
-                  About UNC Properties
+                  About Royal Havenwood Properties
                 </h1>
-                <p className="g-font-1 text-lg py-4 max-sm:text-sm">
-                  With a net asset value of AED 177.5 Bn (USD 48.3 Bn)*, UNC
+                <p className="py-4 text-lg g-font-1 max-sm:text-sm">
+                  With a net asset value of AED 177.5 Bn (USD 48.3 Bn)*, Royal Havenwood
                   Properties is among the most admired and valuable real estate
-                  development companies in the world. UNC, which has established
+                  development companies in the world. Royal Havenwood, which has established
                   competencies in real estate, retail and shopping malls,
                   hospitality, and leisure, shapes new lifestyles through its
                   commitment to design excellence, build quality, and timely
                   delivery.
                 </p>
-                <p className="g-font-1 text-sm">
+                <p className="text-sm g-font-1">
                   *As of 31st December 2023, and based on the valuation of
                   assets done by third party valuer..
                 </p>
@@ -113,11 +113,11 @@ export default function About() {
         {/*floating white square with text*/}
         <div className="absolute top-[140dvh] h-fit max-[992px]:relative max-[992px]:top-5">
           <div className="bg-white w-2/5 max-[992px]:w-full p-8 py-12 h-fit flex flex-col justify-center gap-3">
-            <h1 className="text-2xl uppercase font-medium">
+            <h1 className="text-2xl font-medium uppercase">
               "WE ARE SHARPENING OUR STRATEGY TO BE ONE OF THE WORLD'S MOST
               VALUABLE, MOST INNOVATIVE AND MOST ADMIRED COMPANIES"
             </h1>
-            <span className="p-1 g-font-2 text-xs tracking-widest text-gray-600 uppercase flex items-center gap-5">
+            <span className="flex items-center gap-5 p-1 text-xs tracking-widest text-gray-600 uppercase g-font-2">
               FOUNDER | MOHAMED ALABBAR
               <div className="w-[120px] border-t-[1px] border-t-gray-400"></div>
             </span>
@@ -138,10 +138,10 @@ export default function About() {
         <div className="w-full h-fit flex items-center p-4 gap-3 max-[992px]:flex-col">
           <div className="bg-gray-50 flex flex-col justify-center gap-6 p-8 h-[400px] w-1/3 max-[992px]:w-full">
             <h1 className="text-2xl uppercase max-sm:text-xl">
-              UNC PROPERTIES BOARD OF DIRECTORS
+              Royal Havenwood PROPERTIES BOARD OF DIRECTORS
             </h1>
             <p className="text-xl g-font-1 max-sm:text-lg">
-              UNC's leadership team is comprised of the industry's most
+              Royal Havenwood's leadership team is comprised of the industry's most
               experienced leaders, who have secured our place as one of the
               world's greatest real estate and lifestyle developers.
             </p>
@@ -154,11 +154,11 @@ export default function About() {
           </div>
           <div className="bg-gray-50 flex flex-col justify-center gap-6 p-8 h-[400px] w-1/3 max-[992px]:w-full">
             <h1 className="text-2xl uppercase max-sm:text-xl">
-              UNC DEVELOPMENT BOARD OF DIRECTORS
+              Royal Havenwood DEVELOPMENT BOARD OF DIRECTORS
             </h1>
             <p className="text-xl g-font-1 max-sm:text-lg">
-              With their combined wisdom and innovative approach, UNC
-              Development's leadership has been essential in establishing UNC as
+              With their combined wisdom and innovative approach, Royal Havenwood
+              Development's leadership has been essential in establishing Royal Havenwood as
               a top-tier real estate and lifestyle developer.
             </p>
             <Button
@@ -173,7 +173,7 @@ export default function About() {
               PRINCIPAL OFFICERS
             </h1>
             <p className="text-xl g-font-1 max-sm:text-lg">
-              UNC has built a team of motivated officers, united in their
+              Royal Havenwood has built a team of motivated officers, united in their
               commitment to excellence. This dedication stands strong, even
               amidst our many achievements and accolades, ensuring a constant
               drive for improvement.
@@ -191,17 +191,17 @@ export default function About() {
       <div className="flex min-h-[100dvh] max-[992px]:flex-col lg:h-fit">
         {/*Title*/}
         <div className="flex flex-col items-start gap-5 w-1/3 px-3 py-12 max-[992px]:w-full lg:h-fit">
-          <span className="g-font-2 text-xs tracking-widest text-gray-600 uppercase flex items-center gap-5">
+          <span className="flex items-center gap-5 text-xs tracking-widest text-gray-600 uppercase g-font-2">
             Properties
             <div className="w-[120px] border-t-[1px] border-t-gray-400"></div>
           </span>
-          <h1 className="uppercase text-5xl max-lg:text-4xl leading-snug">
+          <h1 className="text-5xl leading-snug uppercase max-lg:text-4xl">
             International destinations
           </h1>
-          <p className="text-lg g-font-1 text-gray-600">
+          <p className="text-lg text-gray-600 g-font-1">
             Our properties each have their own unique design aesthetic,
             providing an aspirational lifestyle within a thriving community,
-            supported by UNC’s community management team.
+            supported by Royal Havenwood’s community management team.
           </p>
           <span className="w-full max-[992px]:hidden">
             <Button
@@ -284,22 +284,22 @@ export default function About() {
           />
         </span>
       </div>
-      {/*other UNC businesses*/}
+      {/*other Royal Havenwood businesses*/}
       <div className="h-[100dvh] flex items-center justify-center px-3 py-12 max-lg:h-fit">
-        <div className="flex flex-col gap-3 w-full">
-          <span className="g-font-2 text-xs tracking-widest text-gray-600 uppercase flex items-center gap-5">
+        <div className="flex flex-col w-full gap-3">
+          <span className="flex items-center gap-5 text-xs tracking-widest text-gray-600 uppercase g-font-2">
             More
             <div className="w-[120px] border-t-[1px] border-t-gray-400"></div>
           </span>
-          <span className="flex justify-between items-center">
-            <h1 className="uppercase text-5xl max-lg:text-4xl leading-snug">
-              OTHER UNC BUSINESSES
+          <span className="flex items-center justify-between">
+            <h1 className="text-5xl leading-snug uppercase max-lg:text-4xl">
+              OTHER Royal Havenwood BUSINESSES
             </h1>
           </span>
           <div className="select-none">
-            <span className="flex w-full justify-between gap-3 py-3 max-md:flex-col">
+            <span className="flex justify-between w-full gap-3 py-3 max-md:flex-col">
               <CardType1
-                cardHeader={"UNC HOSPITALITY"}
+                cardHeader={"Royal Havenwood HOSPITALITY"}
                 cardHeaderClasses={"text-2xl"}
                 cardImage={
                   "https://cdn.properties.emaar.com/wp-content/uploads/2020/06/emaar-hospitality-320x415.jpg"
@@ -309,7 +309,7 @@ export default function About() {
                 extraClasses={"w-[300px] h-fit py-1 gap-3 max-md:w-full"}
               />
               <CardType1
-                cardHeader={"UNC MALLS"}
+                cardHeader={"Royal Havenwood MALLS"}
                 cardHeaderClasses={"text-2xl"}
                 cardImage={
                   "https://cdn.properties.emaar.com/wp-content/uploads/2020/06/emaar-malls-320x415.jpg"
@@ -329,7 +329,7 @@ export default function About() {
                 extraClasses={"w-[300px] h-fit py-1 gap-3 max-md:w-full"}
               />
               <CardType1
-                cardHeader={"UNC ENTERTAINMENT"}
+                cardHeader={"Royal Havenwood ENTERTAINMENT"}
                 cardHeaderClasses={"text-2xl"}
                 cardImage={
                   "https://cdn.properties.emaar.com/wp-content/uploads/2020/06/emaar-entertainment-320x415.jpg"
@@ -347,7 +347,7 @@ export default function About() {
         <CardType3
           titleText={"INVESTOR RELATIONS"}
           contentText={
-            "UNC is a Public Joint Stock Company listed on the Dubai Financial Market. View UNC’s stock market trends and related data."
+            "Royal Havenwood is a Public Joint Stock Company listed on the Dubai Financial Market. View Royal Havenwood’s stock market trends and related data."
           }
           imgSrc={
             "https://cdn.properties.emaar.com/wp-content/uploads/2020/06/investor-relations-440x280.png"
@@ -365,9 +365,9 @@ export default function About() {
           extraClasses={"h-[500px] justify-between"}
         />
         <CardType3
-          titleText={"UNC FOUNDATION"}
+          titleText={"Royal Havenwood FOUNDATION"}
           contentText={
-            "The UNC Foundation, a part of UNC Properties, focuses on driving and coordinating the group's corporate social responsibility efforts."
+            "The Royal Havenwood Foundation, a part of Royal Havenwood Properties, focuses on driving and coordinating the group's corporate social responsibility efforts."
           }
           imgSrc={
             "https://cdn.properties.emaar.com/wp-content/uploads/2020/06/emaar-foundation-440x280.png"
@@ -378,16 +378,16 @@ export default function About() {
       {/*featured awards*/}
       <div className="h-[100dvh] bg-white flex flex-col justify-center w-full">
         {/*heading*/}
-        <h1 className="uppercase text-center text-5xl max-lg:text-4xl leading-snug">
+        <h1 className="text-5xl leading-snug text-center uppercase max-lg:text-4xl">
           Featured awards
         </h1>
         {/*cards*/}
         <div
           id="scroll-container"
-          className="overflow-x-scroll no-scrollbar cursor-grab select-none"
+          className="overflow-x-scroll select-none no-scrollbar cursor-grab"
           ref={scrollContainerRef}
         >
-          <span className="flex w-fit gap-5 py-3">
+          <span className="flex gap-5 py-3 w-fit">
             <CardType1
               cardHeader={"Certified Autism Center™"}
               cardHeaderClasses={"text-2xl"}
@@ -701,7 +701,7 @@ export default function About() {
           <div className="h-[50px] flex items-center justify-center mb-2">
             <div className="flex items-center gap-3">
               <div
-                className="bg-black h-3 w-3 rounded z-10 car-btn"
+                className="z-10 w-3 h-3 bg-black rounded car-btn"
                 id="car-btn-1"
               >
                 <Button
@@ -712,7 +712,7 @@ export default function About() {
                 />
               </div>
               <div
-                className="bg-gray-200 h-3 w-3 rounded z-10 car-btn"
+                className="z-10 w-3 h-3 bg-gray-200 rounded car-btn"
                 id="car-btn-2"
               >
                 <Button
@@ -723,7 +723,7 @@ export default function About() {
                 />
               </div>
               <div
-                className="bg-gray-200 h-3 w-3 rounded z-10 car-btn"
+                className="z-10 w-3 h-3 bg-gray-200 rounded car-btn"
                 id="car-btn-3"
               >
                 <Button
@@ -734,7 +734,7 @@ export default function About() {
                 />
               </div>
               <div
-                className="bg-gray-200 h-3 w-3 rounded z-10 car-btn"
+                className="z-10 w-3 h-3 bg-gray-200 rounded car-btn"
                 id="car-btn-4"
               >
                 <Button
@@ -745,7 +745,7 @@ export default function About() {
                 />
               </div>
               <div
-                className="bg-gray-200 h-3 w-3 rounded z-10 car-btn"
+                className="z-10 w-3 h-3 bg-gray-200 rounded car-btn"
                 id="car-btn-5"
               >
                 <Button
