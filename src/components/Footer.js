@@ -202,7 +202,9 @@ function Footer() {
               <a href="https://www.google.com/">Scam Alerts</a>
             </li>
             <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
-              <a href="https://www.google.com/">Royal Havenwood Sustainability</a>
+              <a href="https://www.google.com/">
+                Royal Havenwood Sustainability
+              </a>
             </li>
           </ul>
         </div>
@@ -316,7 +318,9 @@ function Footer() {
               </a>
             </li>
             <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
-              <a href="https://www.google.com/">greenridge at Royal Havenwood south</a>
+              <a href="https://www.google.com/">
+                greenridge at Royal Havenwood south
+              </a>
             </li>
             <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
               <a href="https://www.google.com/">
@@ -564,7 +568,9 @@ function Footer() {
             }`}
           >
             <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
-              <a href="https://www.google.com/">Colombo polo & equestrian club</a>
+              <a href="https://www.google.com/">
+                Colombo polo & equestrian club
+              </a>
             </li>
             <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
               <a href="https://www.google.com/">arabian ranches golf club</a>
@@ -673,7 +679,9 @@ function Footer() {
                 </a>
               </li>
               <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
-                <a href="https://www.google.com/">off-plan projects in Colombo</a>
+                <a href="https://www.google.com/">
+                  off-plan projects in Colombo
+                </a>
               </li>
             </ul>
           </div>
@@ -683,16 +691,10 @@ function Footer() {
       <div className="flex bg-white h-fit">
         <ul className="flex px-4 py-5 max-[992px]:px-0 justify-center gap-6 w-full uppercase g-font-1 tracking-widest text-xs max-md:flex-col max-md:px-4 max-md:pb-8 max-[992px]:w-full">
           <li className="py-1 transition-all delay-75 hover:text-blue-300 w-fit">
-            <a href="https://www.google.com/">privacy policy</a>
+            all rights reserved
           </li>
           <li className="py-1 border-l-gray-300 border-l-[1px] pl-4 max-md:pl-0 max-md:border-none hover:text-blue-300 delay-75 transition-all w-fit">
-            <a href="https://www.google.com/">royal havenwood asset usage policy</a>
-          </li>
-          <li className="py-1 border-l-gray-300 border-l-[1px] pl-4 max-md:pl-0 max-md:border-none hover:text-blue-300 delay-75 transition-all w-fit">
-            <a href="https://www.google.com/">terms & conditions</a>
-          </li>
-          <li className="py-1 border-l-gray-300 border-l-[1px] pl-4 max-md:pl-0 max-md:border-none hover:text-blue-300 delay-75 transition-all w-fit">
-            <a href="https://www.google.com/">country and language</a>
+            designed & developed by Silicon Radon Networks (Pvt) Ltd
           </li>
         </ul>
       </div>
