@@ -1,6 +1,18 @@
 import Button from "./Button";
 import CardType1 from "./CardType1";
 import React, { useRef } from "react";
+import img_1 from "../images/landing/hayrullah-gozcu-bltGAZI75-4-unsplash-1-scaled-607x726.jpg";
+import img_2 from "../images/landing/viktor-jakovlev-H0vuplqoX0c-unsplash-scaled-607x726.jpg";
+import img_3 from "../images/landing/Interior-1-scaled-607x726.jpg";
+import img_4 from "../images/landing/spacejoy-KSfe2Z4REEM-unsplash-scaled-607x726.jpg";
+import img_5 from "../images/landing/webaliser-_TPTXZd9mOo-unsplash-scaled-607x726.jpg";
+import img_6 from "../images/landing/zion-c-sGblr5yVXiM-unsplash-607x726.jpg";
+import img_7 from "../images/landing/vu-anh-TiVPTYCG_3E-unsplash-scaled-607x726.jpg";
+import img_8 from "../images/landing/diane-picchiottino-GXLazwyfl0k-unsplash-scaled-607x726.jpg";
+import img_9 from "../images/landing/ryan-ancill-Vew4xyLkpdY-unsplash-1-scaled-607x726.jpg";
+import img_10 from "../images/landing/adam-neumann-2I5t_A3N5N4-unsplash-scaled-607x726.jpg";
+import img_11 from "../images/landing/claudia-lorusso-EUByJmBmVEw-unsplash-scaled-607x726.jpg";
+import img_12 from "../images/landing/victor-Ze9ykREkuVA-unsplash-scaled-607x726.jpg";
 
 function HomeSection3() {
   const scrollContainerRef = useRef(null);
@@ -22,13 +34,13 @@ function HomeSection3() {
   };
   return (
     <div className="h-[100dvh] flex items-center justify-center px-3 py-12 max-lg:h-fit">
-      <div className="flex flex-col gap-3 w-full">
-        <span className="g-font-2 text-xs tracking-widest text-gray-600 uppercase flex items-center gap-5">
+      <div className="flex flex-col w-full gap-3">
+        <span className="flex items-center gap-5 text-xs tracking-widest text-gray-600 uppercase g-font-2">
           Projects
           <div className="w-[120px] border-t-[1px] border-t-gray-400"></div>
         </span>
-        <span className="flex justify-between items-center">
-          <h1 className="uppercase text-5xl max-lg:text-4xl leading-snug">
+        <span className="flex items-center justify-between">
+          <h1 className="text-5xl leading-snug uppercase max-lg:text-4xl">
             Featured Projects
           </h1>
           <span className="max-md:hidden">
@@ -78,10 +90,10 @@ function HomeSection3() {
         </span>
         <div
           id="scroll-container"
-          className="overflow-x-scroll no-scrollbar cursor-grab select-none"
+          className="overflow-x-scroll select-none no-scrollbar cursor-grab"
           ref={scrollContainerRef}
         >
-          <span className="flex w-fit gap-5 py-3">
+          <span className="flex gap-5 py-3 w-fit">
             <CardType1
               cardHeader={"Design Role"}
               cardHeaderClasses={"text-2xl"}
@@ -89,9 +101,7 @@ function HomeSection3() {
               cardText1Classes={
                 "uppercase text-xs g-font-2 tracking-widest p-1"
               }
-              cardImage={
-                "https://royalhavenwood.com/wp-content/uploads/2020/10/hayrullah-gozcu-bltGAZI75-4-unsplash-1-scaled-607x726.jpg"
-              }
+              cardImage={img_1}
               cardImageClasses={"h-[400px]"}
               btnText={"nobtn"}
               extraClasses={"w-[300px] h-fit py-1 gap-3"}
@@ -103,9 +113,7 @@ function HomeSection3() {
               cardText1Classes={
                 "uppercase text-xs g-font-2 tracking-widest p-1"
               }
-              cardImage={
-                "https://royalhavenwood.com/wp-content/uploads/2020/10/viktor-jakovlev-H0vuplqoX0c-unsplash-scaled-607x726.jpg"
-              }
+              cardImage={img_2}
               cardImageClasses={"h-[400px]"}
               btnText={"nobtn"}
               extraClasses={"w-[300px] h-fit py-1 gap-3"}
@@ -117,9 +125,7 @@ function HomeSection3() {
               cardText1Classes={
                 "uppercase text-xs g-font-2 tracking-widest p-1"
               }
-              cardImage={
-                "https://royalhavenwood.com/wp-content/uploads/2024/11/Interior-1-scaled-607x726.jpg"
-              }
+              cardImage={img_3}
               cardImageClasses={"h-[400px]"}
               btnText={"nobtn"}
               extraClasses={"w-[300px] h-fit py-1 gap-3"}
@@ -131,9 +137,7 @@ function HomeSection3() {
               cardText1Classes={
                 "uppercase text-xs g-font-2 tracking-widest p-1"
               }
-              cardImage={
-                "https://royalhavenwood.com/wp-content/uploads/2020/10/spacejoy-KSfe2Z4REEM-unsplash-scaled-607x726.jpg"
-              }
+              cardImage={img_4}
               cardImageClasses={"h-[400px]"}
               btnText={"nobtn"}
               extraClasses={"w-[300px] h-fit py-1 gap-3"}
@@ -145,9 +149,7 @@ function HomeSection3() {
               cardText1Classes={
                 "uppercase text-xs g-font-2 tracking-widest p-1"
               }
-              cardImage={
-                "https://royalhavenwood.com/wp-content/uploads/2020/10/webaliser-_TPTXZd9mOo-unsplash-scaled-607x726.jpg"
-              }
+              cardImage={img_5}
               cardImageClasses={"h-[400px]"}
               btnText={"nobtn"}
               extraClasses={"w-[300px] h-fit py-1 gap-3"}
@@ -159,9 +161,7 @@ function HomeSection3() {
               cardText1Classes={
                 "uppercase text-xs g-font-2 tracking-widest p-1"
               }
-              cardImage={
-                "https://royalhavenwood.com/wp-content/uploads/2020/10/zion-c-sGblr5yVXiM-unsplash-607x726.jpg"
-              }
+              cardImage={img_6}
               cardImageClasses={"h-[400px]"}
               btnText={"nobtn"}
               extraClasses={"w-[300px] h-fit py-1 gap-3"}
@@ -173,9 +173,7 @@ function HomeSection3() {
               cardText1Classes={
                 "uppercase text-xs g-font-2 tracking-widest p-1"
               }
-              cardImage={
-                "https://royalhavenwood.com/wp-content/uploads/2020/10/vu-anh-TiVPTYCG_3E-unsplash-scaled-607x726.jpg"
-              }
+              cardImage={img_7}
               cardImageClasses={"h-[400px]"}
               btnText={"nobtn"}
               extraClasses={"w-[300px] h-fit py-1 gap-3"}
@@ -187,9 +185,7 @@ function HomeSection3() {
               cardText1Classes={
                 "uppercase text-xs g-font-2 tracking-widest p-1"
               }
-              cardImage={
-                "https://royalhavenwood.com/wp-content/uploads/2020/10/diane-picchiottino-GXLazwyfl0k-unsplash-scaled-607x726.jpg"
-              }
+              cardImage={img_8}
               cardImageClasses={"h-[400px]"}
               btnText={"nobtn"}
               extraClasses={"w-[300px] h-fit py-1 gap-3"}
@@ -201,9 +197,7 @@ function HomeSection3() {
               cardText1Classes={
                 "uppercase text-xs g-font-2 tracking-widest p-1"
               }
-              cardImage={
-                "https://royalhavenwood.com/wp-content/uploads/2020/10/ryan-ancill-Vew4xyLkpdY-unsplash-1-scaled-607x726.jpg"
-              }
+              cardImage={img_9}
               cardImageClasses={"h-[400px]"}
               btnText={"nobtn"}
               extraClasses={"w-[300px] h-fit py-1 gap-3"}
@@ -215,9 +209,7 @@ function HomeSection3() {
               cardText1Classes={
                 "uppercase text-xs g-font-2 tracking-widest p-1"
               }
-              cardImage={
-                "https://royalhavenwood.com/wp-content/uploads/2020/10/adam-neumann-2I5t_A3N5N4-unsplash-scaled-607x726.jpg"
-              }
+              cardImage={img_10}
               cardImageClasses={"h-[400px]"}
               btnText={"nobtn"}
               extraClasses={"w-[300px] h-fit py-1 gap-3"}
@@ -229,9 +221,7 @@ function HomeSection3() {
               cardText1Classes={
                 "uppercase text-xs g-font-2 tracking-widest p-1"
               }
-              cardImage={
-                "https://royalhavenwood.com/wp-content/uploads/2020/10/claudia-lorusso-EUByJmBmVEw-unsplash-scaled-607x726.jpg"
-              }
+              cardImage={img_11}
               cardImageClasses={"h-[400px]"}
               btnText={"nobtn"}
               extraClasses={"w-[300px] h-fit py-1 gap-3"}
@@ -243,9 +233,7 @@ function HomeSection3() {
               cardText1Classes={
                 "uppercase text-xs g-font-2 tracking-widest p-1"
               }
-              cardImage={
-                "https://royalhavenwood.com/wp-content/uploads/2020/10/victor-Ze9ykREkuVA-unsplash-scaled-607x726.jpg"
-              }
+              cardImage={img_12}
               cardImageClasses={"h-[400px]"}
               btnText={"nobtn"}
               extraClasses={"w-[300px] h-fit py-1 gap-3"}

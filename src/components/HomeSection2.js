@@ -5,6 +5,7 @@ import img_2 from "../images/landing/About-us-scaled.jpg";
 import img_3 from "../images/landing/Interior-1-scaled.jpg";
 import img_4 from "../images/landing/laura-adai-J60bPeDiR8A-unsplash-scaled.jpg";
 import img_5 from "../images/landing/HERO_1620X832_2-2-706x385.jpg";
+import img_6 from "../images/landing/99a58eb50a1bda67dc06c8ccb8230560.jpg";
 
 function HomeSection2() {
   return (
@@ -40,9 +41,7 @@ function HomeSection2() {
             cardUrl={"https://www.google.com"}
             cardText1={"Luxe lodging with 3 restaurants & a spa"}
             cardText2={"Mount Lavinia Hotel"}
-            cardImage={
-              "https://royalhavenwood.com/wp-content/uploads/2024/11/Second-scaled.jpg"
-            }
+            cardImage={img_6}
             cardImageMd={img_5}
           />
           <CardType2
