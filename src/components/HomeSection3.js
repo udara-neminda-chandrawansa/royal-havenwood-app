@@ -96,7 +96,7 @@ function HomeSection3() {
           <span className="flex gap-5 py-3 w-fit">
             <CardType1
               cardHeader={"Design Role"}
-              cardHeaderClasses={"text-2xl"}
+              cardHeaderClasses={"text-2xl max-xl:text-xl max-lg:text-lg"}
               cardText1={"Outdoor Design"}
               cardText1Classes={
                 "uppercase text-xs g-font-2 tracking-widest p-1"
@@ -108,7 +108,7 @@ function HomeSection3() {
             />
             <CardType1
               cardHeader={"Means Of Design"}
-              cardHeaderClasses={"text-2xl"}
+              cardHeaderClasses={"text-2xl max-xl:text-xl max-lg:text-lg"}
               cardText1={"Outdoor Design"}
               cardText1Classes={
                 "uppercase text-xs g-font-2 tracking-widest p-1"
@@ -120,7 +120,7 @@ function HomeSection3() {
             />
             <CardType1
               cardHeader={"Environmental Role"}
-              cardHeaderClasses={"text-2xl"}
+              cardHeaderClasses={"text-2xl max-xl:text-xl max-lg:text-lg"}
               cardText1={"Outdoor Design"}
               cardText1Classes={
                 "uppercase text-xs g-font-2 tracking-widest p-1"
@@ -132,7 +132,7 @@ function HomeSection3() {
             />
             <CardType1
               cardHeader={"Construction Role"}
-              cardHeaderClasses={"text-2xl"}
+              cardHeaderClasses={"text-2xl max-xl:text-xl max-lg:text-lg"}
               cardText1={"Outdoor Design"}
               cardText1Classes={
                 "uppercase text-xs g-font-2 tracking-widest p-1"
@@ -144,7 +144,7 @@ function HomeSection3() {
             />
             <CardType1
               cardHeader={"Lighting Design"}
-              cardHeaderClasses={"text-2xl"}
+              cardHeaderClasses={"text-2xl max-xl:text-xl max-lg:text-lg"}
               cardText1={"Outdoor Design"}
               cardText1Classes={
                 "uppercase text-xs g-font-2 tracking-widest p-1"
@@ -156,7 +156,7 @@ function HomeSection3() {
             />
             <CardType1
               cardHeader={"Alternate Practice"}
-              cardHeaderClasses={"text-2xl"}
+              cardHeaderClasses={"text-2xl max-xl:text-xl max-lg:text-lg"}
               cardText1={"Outdoor Design"}
               cardText1Classes={
                 "uppercase text-xs g-font-2 tracking-widest p-1"
@@ -168,7 +168,7 @@ function HomeSection3() {
             />
             <CardType1
               cardHeader={"Architectural Designer"}
-              cardHeaderClasses={"text-2xl"}
+              cardHeaderClasses={"text-2xl max-xl:text-xl max-lg:text-lg"}
               cardText1={"Outdoor Design"}
               cardText1Classes={
                 "uppercase text-xs g-font-2 tracking-widest p-1"
@@ -180,7 +180,7 @@ function HomeSection3() {
             />
             <CardType1
               cardHeader={"Architectural Drawing"}
-              cardHeaderClasses={"text-2xl"}
+              cardHeaderClasses={"text-2xl max-xl:text-xl max-lg:text-lg"}
               cardText1={"Outdoor Design"}
               cardText1Classes={
                 "uppercase text-xs g-font-2 tracking-widest p-1"
@@ -192,7 +192,7 @@ function HomeSection3() {
             />
             <CardType1
               cardHeader={"Chartered Architect"}
-              cardHeaderClasses={"text-2xl"}
+              cardHeaderClasses={"text-2xl max-xl:text-xl max-lg:text-lg"}
               cardText1={"Outdoor Design"}
               cardText1Classes={
                 "uppercase text-xs g-font-2 tracking-widest p-1"
@@ -204,7 +204,7 @@ function HomeSection3() {
             />
             <CardType1
               cardHeader={"Landscape Architect"}
-              cardHeaderClasses={"text-2xl"}
+              cardHeaderClasses={"text-2xl max-xl:text-xl max-lg:text-lg"}
               cardText1={"Outdoor Design"}
               cardText1Classes={
                 "uppercase text-xs g-font-2 tracking-widest p-1"
@@ -216,7 +216,7 @@ function HomeSection3() {
             />
             <CardType1
               cardHeader={"List Of Architects"}
-              cardHeaderClasses={"text-2xl"}
+              cardHeaderClasses={"text-2xl max-xl:text-xl max-lg:text-lg"}
               cardText1={"Outdoor Design"}
               cardText1Classes={
                 "uppercase text-xs g-font-2 tracking-widest p-1"
@@ -228,7 +228,7 @@ function HomeSection3() {
             />
             <CardType1
               cardHeader={"Architect Like"}
-              cardHeaderClasses={"text-2xl"}
+              cardHeaderClasses={"text-2xl max-xl:text-xl max-lg:text-lg"}
               cardText1={"Outdoor Design"}
               cardText1Classes={
                 "uppercase text-xs g-font-2 tracking-widest p-1"
