@@ -40,7 +40,7 @@ function HomeSection3() {
           <div className="w-[120px] border-t-[1px] border-t-gray-400"></div>
         </span>
         <span className="flex items-center justify-between">
-          <h1 className="text-5xl leading-snug uppercase max-lg:text-4xl">
+          <h1 className="text-5xl leading-snug uppercase max-xl:text-4xl max-lg:text-3xl max-md:text-2xl max-sm:text-xl">
             Featured Projects
           </h1>
           <span className="max-md:hidden">

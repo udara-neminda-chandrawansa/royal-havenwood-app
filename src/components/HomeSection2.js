@@ -16,7 +16,7 @@ function HomeSection2() {
           Living spaces
           <div className="w-[120px] border-t-[1px] border-t-gray-400"></div>
         </span>
-        <h1 className="text-5xl leading-snug uppercase max-lg:text-4xl">
+        <h1 className="text-5xl leading-snug uppercase max-xl:text-4xl max-lg:text-3xl max-md:text-2xl max-sm:text-xl">
           Architecture And Decor
         </h1>
         <p className="text-lg text-gray-600 g-font-1">
