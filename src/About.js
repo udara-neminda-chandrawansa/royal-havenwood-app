@@ -5,6 +5,14 @@ import Footer from "./components/Footer";
 import Nav from "./components/Nav";
 import Sidebar from "./components/Sidebar";
 import Button from "./components/Button";
+import banner from "./images/about/banner.jpg";
+import banner_2 from "./images/about/banner_2.jpg";
+import lotus_t from "./images/about/lotus_t.jpg";
+import lotus_t_2 from "./images/about/lotus_t_2.jpg";
+import devi_p from "./images/about/devi_p.jpg";
+import sigiriya from "./images/about/sigiriya.jpg";
+import galle from "./images/about/galle.jpg";
+import yala from "./images/about/yala.jpg";
 import React, { useRef } from "react";
 
 export default function About() {
@@ -65,15 +73,16 @@ export default function About() {
       {/*banner + nav*/}
       <div className="flex w-full text-black h-fit">
         <Sidebar></Sidebar>
-        <div className="flex flex-col h-fit">
+        <div className="flex flex-col w-full h-fit">
           {/*nav*/}
           <span className="p-1">
             <Nav theme={"dark"}></Nav>
           </span>
           {/*banner (img + overview text)*/}
-          <div className="relative">
+          <div className="relative w-full h-[600px]">
             <img
-              src="https://cdn.properties.emaar.com/wp-content/uploads/2020/07/BK_2600x1470-scaled-1-1620x740.jpg"
+              src={banner}
+              className="object-cover w-full h-full"
               alt="about"
             ></img>
             {/*floating white square with text*/}
@@ -87,17 +96,18 @@ export default function About() {
                   About Royal Havenwood Properties
                 </h1>
                 <p className="py-4 text-lg g-font-1 max-sm:text-sm">
-                  With a net asset value of AED 177.5 Bn (USD 48.3 Bn)*, Royal Havenwood
-                  Properties is among the most admired and valuable real estate
-                  development companies in the world. Royal Havenwood, which has established
-                  competencies in real estate, retail and shopping malls,
-                  hospitality, and leisure, shapes new lifestyles through its
-                  commitment to design excellence, build quality, and timely
-                  delivery.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Quisque aliquam eget eros in malesuada. Sed in consequat
+                  metus. Integer vel fermentum arcu, ultrices laoreet erat.
+                  Integer viverra lorem eu enim posuere blandit. Curabitur
+                  placerat est nec nisi semper malesuada. Morbi tincidunt, orci
+                  ut pretium facilisis, tellus enim tempor sapien, in blandit
+                  quam metus et nibh. In nec condimentum tellus, imperdiet
+                  tempus metus.
                 </p>
                 <p className="text-sm g-font-1">
-                  *As of 31st December 2023, and based on the valuation of
-                  assets done by third party valuer..
+                  * Sed vel ultrices dui, a ullamcorper tortor. Morbi gravida
+                  diam et malesuada vulputate...
                 </p>
               </div>
             </div>
@@ -106,8 +116,9 @@ export default function About() {
       </div>
       {/*owners message*/}
       <div className="relative p-4 mt-[10%] max-[992px]:flex flex-col justify-center items-center max-[992px]:mt-0">
-        <img className="w-full"
-          src="https://cdn.properties.emaar.com/wp-content/uploads/2022/04/chairman-image-1620x740-1-1620x740.png"
+        <img
+          className="w-full h-[600px] object-cover"
+          src={banner_2}
           alt="founder"
         ></img>
         {/*floating white square with text*/}
@@ -118,7 +129,7 @@ export default function About() {
               VALUABLE, MOST INNOVATIVE AND MOST ADMIRED COMPANIES"
             </h1>
             <span className="flex items-center gap-5 p-1 text-xs tracking-widest text-gray-600 uppercase g-font-2">
-              FOUNDER | MOHAMED ALABBAR
+              FOUNDER | Kasun Jayamaha
               <div className="w-[120px] border-t-[1px] border-t-gray-400"></div>
             </span>
             <Button
@@ -141,8 +152,8 @@ export default function About() {
               Royal Havenwood PROPERTIES BOARD OF DIRECTORS
             </h1>
             <p className="text-xl g-font-1 max-xl:text-lg">
-              Royal Havenwood's leadership team is comprised of the industry's most
-              experienced leaders, who have secured our place as one of the
+              Royal Havenwood's leadership team is comprised of the industry's
+              most experienced leaders, who have secured our place as one of the
               world's greatest real estate and lifestyle developers.
             </p>
             <Button
@@ -157,9 +168,10 @@ export default function About() {
               Royal Havenwood DEVELOPMENT BOARD OF DIRECTORS
             </h1>
             <p className="text-xl g-font-1 max-xl:text-lg">
-              With their combined wisdom and innovative approach, Royal Havenwood
-              Development's leadership has been essential in establishing Royal Havenwood as
-              a top-tier real estate and lifestyle developer.
+              With their combined wisdom and innovative approach, Royal
+              Havenwood Development's leadership has been essential in
+              establishing Royal Havenwood as a top-tier real estate and
+              lifestyle developer.
             </p>
             <Button
               displayText={"Learn More"}
@@ -173,10 +185,10 @@ export default function About() {
               PRINCIPAL OFFICERS
             </h1>
             <p className="text-xl g-font-1 max-xl:text-lg">
-              Royal Havenwood has built a team of motivated officers, united in their
-              commitment to excellence. This dedication stands strong, even
-              amidst our many achievements and accolades, ensuring a constant
-              drive for improvement.
+              Royal Havenwood has built a team of motivated officers, united in
+              their commitment to excellence. This dedication stands strong,
+              even amidst our many achievements and accolades, ensuring a
+              constant drive for improvement.
             </p>
             <Button
               displayText={"Learn More"}
@@ -196,7 +208,7 @@ export default function About() {
             <div className="w-[120px] border-t-[1px] border-t-gray-400"></div>
           </span>
           <h1 className="text-5xl leading-snug uppercase max-xl:text-4xl max-lg:text-3xl max-md:text-2xl max-sm:text-xl">
-            International destinations
+            Wonderful destinations
           </h1>
           <p className="text-lg text-gray-600 g-font-1">
             Our properties each have their own unique design aesthetic,
@@ -217,10 +229,8 @@ export default function About() {
           <div className="flex flex-col justify-start w-1/2 px-3 max-md:w-full">
             <CardType2
               cardUrl={"https://www.google.com"}
-              cardText1={"Turkey"}
-              cardImage={
-                "https://cdn.properties.emaar.com/wp-content/uploads/2021/09/TURKEY2-440x570.jpg"
-              }
+              cardText1={"Colombo"}
+              cardImage={lotus_t}
               cardImageMd={
                 "https://cdn.properties.emaar.com/wp-content/uploads/2020/06/Turkey-Large-NEW-706x385.jpg"
               }
@@ -228,13 +238,9 @@ export default function About() {
             />
             <CardType2
               cardUrl={"https://www.google.com"}
-              cardText1={"Egypt"}
-              cardImage={
-                "https://cdn.properties.emaar.com/wp-content/uploads/2021/09/EGYPT-706x385.jpg"
-              }
-              cardImageMd={
-                "https://cdn.properties.emaar.com/wp-content/uploads/2021/09/EGYPT-706x385.jpg"
-              }
+              cardText1={"Viharamahadevi Park"}
+              cardImage={devi_p}
+              cardImageMd={devi_p}
               blackLinePClasses={"hidden"}
             />
           </div>
@@ -242,35 +248,23 @@ export default function About() {
           <div className="flex flex-col justify-start w-1/2 px-3 max-md:w-full">
             <CardType2
               cardUrl={"https://www.google.com"}
-              cardText1={"Lebanon"}
-              cardImage={
-                "https://cdn.properties.emaar.com/wp-content/uploads/2021/09/LEBANON2-1-706x385.jpg"
-              }
-              cardImageMd={
-                "https://cdn.properties.emaar.com/wp-content/uploads/2021/09/LEBANON2-1-706x385.jpg"
-              }
+              cardText1={"Sigiriya"}
+              cardImage={sigiriya}
+              cardImageMd={sigiriya}
               blackLinePClasses={"hidden"}
             />
             <CardType2
               cardUrl={"https://www.google.com"}
-              cardText1={"India"}
-              cardImage={
-                "https://cdn.properties.emaar.com/wp-content/uploads/2021/09/INDIA-1-706x385.jpg"
-              }
-              cardImageMd={
-                "https://cdn.properties.emaar.com/wp-content/uploads/2021/09/INDIA-1-706x385.jpg"
-              }
+              cardText1={"Galle"}
+              cardImage={galle}
+              cardImageMd={galle}
               blackLinePClasses={"hidden"}
             />
             <CardType2
               cardUrl={"https://www.google.com"}
-              cardText1={"Pakistan"}
-              cardImage={
-                "https://cdn.properties.emaar.com/wp-content/uploads/2021/09/PAKISTAN-706x385.jpg"
-              }
-              cardImageMd={
-                "https://cdn.properties.emaar.com/wp-content/uploads/2021/09/PAKISTAN-706x385.jpg"
-              }
+              cardText1={"Yala"}
+              cardImage={yala}
+              cardImageMd={yala}
               blackLinePClasses={"hidden"}
             />
           </div>
@@ -304,7 +298,7 @@ export default function About() {
                 cardImage={
                   "https://cdn.properties.emaar.com/wp-content/uploads/2020/06/emaar-hospitality-320x415.jpg"
                 }
-                cardImageClasses={"h-full"}
+                cardImageClasses={"h-[400px]"}
                 btnText={"nobtn"}
                 extraClasses={"w-[300px] h-fit py-1 gap-3 max-md:w-full"}
               />
@@ -314,17 +308,15 @@ export default function About() {
                 cardImage={
                   "https://cdn.properties.emaar.com/wp-content/uploads/2020/06/emaar-malls-320x415.jpg"
                 }
-                cardImageClasses={"h-full"}
+                cardImageClasses={"h-[400px]"}
                 btnText={"nobtn"}
                 extraClasses={"w-[300px] h-fit py-1 gap-3 max-md:w-full"}
               />
               <CardType1
-                cardHeader={"BURJ KHALIFA"}
+                cardHeader={"Lotus Tower"}
                 cardHeaderClasses={"text-2xl max-xl:text-xl max-lg:text-lg"}
-                cardImage={
-                  "https://cdn.properties.emaar.com/wp-content/uploads/2020/06/burj-khalifa-320x415.jpg"
-                }
-                cardImageClasses={"h-full"}
+                cardImage={lotus_t_2}
+                cardImageClasses={"h-[400px]"}
                 btnText={"nobtn"}
                 extraClasses={"w-[300px] h-fit py-1 gap-3 max-md:w-full"}
               />
@@ -334,7 +326,7 @@ export default function About() {
                 cardImage={
                   "https://cdn.properties.emaar.com/wp-content/uploads/2020/06/emaar-entertainment-320x415.jpg"
                 }
-                cardImageClasses={"h-full"}
+                cardImageClasses={"h-[400px]"}
                 btnText={"nobtn"}
                 extraClasses={"w-[300px] h-fit py-1 gap-3 max-md:w-full"}
               />{" "}
@@ -347,7 +339,7 @@ export default function About() {
         <CardType3
           titleText={"INVESTOR RELATIONS"}
           contentText={
-            "Royal Havenwood is a Public Joint Stock Company listed on the Dubai Financial Market. View Royal Havenwood’s stock market trends and related data."
+            "Royal Havenwood is a Public Joint Stock Company listed on the Colombo Financial Market. View Royal Havenwood’s stock market trends and related data."
           }
           imgSrc={
             "https://cdn.properties.emaar.com/wp-content/uploads/2020/06/investor-relations-440x280.png"
@@ -505,7 +497,7 @@ export default function About() {
               extraClasses={"w-[300px] h-fit py-1 gap-3"}
             />
             <CardType1
-              cardHeader={"Dubai Hills Park -  Sustainability Prize"}
+              cardHeader={"Colombo Hills Park -  Sustainability Prize"}
               cardHeaderClasses={"text-2xl max-xl:text-xl max-lg:text-lg"}
               cardText1={
                 "Landscape Middle East Awards in Parks &amp; Recreation"
@@ -557,7 +549,7 @@ export default function About() {
             <CardType1
               cardHeader={"ECM - Happiest Residential Community Of The Year"}
               cardHeaderClasses={"text-2xl max-xl:text-xl max-lg:text-lg"}
-              cardText1={"IRECMS Dubai Awards"}
+              cardText1={"IRECMS Colombo Awards"}
               cardText1Classes={
                 "uppercase text-xs g-font-2 tracking-widest p-1"
               }
@@ -623,7 +615,7 @@ export default function About() {
               extraClasses={"w-[300px] h-fit py-1 gap-3"}
             />
             <CardType1
-              cardHeader={"Dubai Mall - Best Customer Experience"}
+              cardHeader={"Colombo Mall - Best Customer Experience"}
               cardHeaderClasses={"text-2xl max-xl:text-xl max-lg:text-lg"}
               cardText1={"World Retail Awards"}
               cardText1Classes={
@@ -656,7 +648,7 @@ export default function About() {
             />
             <CardType1
               cardHeader={
-                "Dubai Aquarium & Underwater Zoo - Largest OLED screen"
+                "Colombo Aquarium & Underwater Zoo - Largest OLED screen"
               }
               cardHeaderClasses={"text-2xl max-xl:text-xl max-lg:text-lg"}
               cardText1={"Guinness World Records™"}
