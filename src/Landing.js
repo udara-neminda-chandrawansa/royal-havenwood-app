@@ -10,6 +10,8 @@ import WhatsAppWidget from "react-whatsapp-chat-widget";
 import "react-whatsapp-chat-widget/index.css";
 import logo from "./images/logo.png";
 
+import ChatBot from "./components/FBChatBt";
+
 export default function Landing() {
   return (
     <>
@@ -64,6 +66,7 @@ export default function Landing() {
         }
         btnTxtColor="white"
       />
+      <ChatBot/>
     </>
   );
 }
