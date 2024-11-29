@@ -139,7 +139,7 @@ export default function Nav({
         </ul>
         <Button
           displayText="Get In Touch"
-          url="https://www.google.com"
+          url="/contact"
           theme={theme}
         />
       </span>

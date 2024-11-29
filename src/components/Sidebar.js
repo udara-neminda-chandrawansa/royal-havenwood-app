@@ -12,7 +12,7 @@ export default function Sidebar() {
       <ul className="w-[300px] flex flex-col gap-3 flex-grow p-3 border-t-[1px] border-t-gray-300">
         <li>
           <Link href="/about">
-            <p className="p-1 flex">About Us</p>
+            <p className="flex p-1">About Us</p>
           </Link>
         </li>
         <li>
@@ -57,7 +57,7 @@ export default function Sidebar() {
         <li>
           <Button
             displayText="Get In Touch"
-            url="https://www.google.com"
+            url="/contact"
             theme="dark"
             width="full"
           />
