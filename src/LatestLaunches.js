@@ -146,11 +146,11 @@ export default function LatestLaunches() {
                 Coming Soon
               </p>
               <h1 className="text-3xl font-semibold uppercase">
-                Dubai Creek Harbour
+              Colombo Creek Harbour
               </h1>
               <p className="w-full g-font-1">
                 New apartment residences which are set to redefine luxury living
-                at Dubai Creek Harbour.
+                at Colombo Creek Harbour.
               </p>
               <Button
                 displayText={"Register Interest"}
@@ -202,10 +202,10 @@ export default function LatestLaunches() {
                 Coming Soon
               </p>
               <h1 className="text-3xl font-semibold uppercase">
-                DUBAI HILLS ESTATE
+              Colombo HILLS ESTATE
               </h1>
               <p className="w-full g-font-1">
-                Experience tranquility and embrace nature's beauty at Dubai
+                Experience tranquility and embrace nature's beauty at Colombo
                 Hills Estate. New apartment residences coming soon.
               </p>
               <Button
@@ -267,7 +267,7 @@ export default function LatestLaunches() {
                 Now Available
               </p>
               <h1 className="text-3xl font-semibold uppercase">
-                GREENVILLE AT EMAAR SOUTH
+                GREENVILLE AT Royal Havenwood SOUTH
               </h1>
               <span>
                 <p className="w-full g-font-1">
@@ -321,12 +321,12 @@ export default function LatestLaunches() {
                 Now Available
               </p>
               <h1 className="text-3xl font-semibold uppercase">
-                MARINA COVE AT DUBAI MARINA
+                MARINA COVE AT Colombo MARINA
               </h1>
               <span>
                 <p className="w-full g-font-1">
                   Marina Cove seamlessly blends vibrant city living with the
-                  tranquillity of waterfront life in one of Dubai Marina’s most
+                  tranquillity of waterfront life in one of Colombo Marina’s most
                   desirable locations.
                 </p>
                 <a
@@ -430,12 +430,12 @@ export default function LatestLaunches() {
                 Now Available
               </p>
               <h1 className="text-3xl font-semibold uppercase">
-                VIDA RESIDENCES CLUB POINT AT DUBAI HILLS ESTATE
+                VIDA RESIDENCES CLUB POINT AT Colombo HILLS ESTATE
               </h1>
               <span>
                 <p className="w-full g-font-1">
                   Welcome to Vida Residences Club Point, where modern design and
-                  natural serenity come together in Dubai Hills Estate.
+                  natural serenity come together in Colombo Hills Estate.
                 </p>
                 <a
                   href="https://www.google.com"
@@ -538,11 +538,11 @@ export default function LatestLaunches() {
                 Now Available
               </p>
               <h1 className="text-3xl font-semibold uppercase">
-                GREENRIDGE AT EMAAR SOUTH
+                GREENRIDGE AT Royal Havenwood SOUTH
               </h1>
               <span>
                 <p className="w-full g-font-1">
-                  Welcome to Greenridge at Emaar South, a serene oasis designed
+                  Welcome to Greenridge at Royal Havenwood South, a serene oasis designed
                   for families to flourish.
                 </p>
                 <a
@@ -592,7 +592,7 @@ export default function LatestLaunches() {
                 Now Available
               </p>
               <h1 className="text-3xl font-semibold uppercase">
-                GOLF HILLSIDE AT DUBAI HILLS ESTATE
+                GOLF HILLSIDE AT Colombo HILLS ESTATE
               </h1>
               <span>
                 <p className="w-full g-font-1">
@@ -647,7 +647,7 @@ export default function LatestLaunches() {
                 Now Available
               </p>
               <h1 className="text-3xl font-semibold uppercase">
-                PARKLAND AT DUBAI HILLS ESTATE
+                PARKLAND AT Colombo HILLS ESTATE
               </h1>
               <span>
                 <p className="w-full g-font-1">
@@ -700,13 +700,13 @@ export default function LatestLaunches() {
                 Now Available
               </p>
               <h1 className="text-3xl font-semibold uppercase">
-                GOLF POINT AT EMAAR SOUTH
+                GOLF POINT AT Royal Havenwood SOUTH
               </h1>
               <span>
                 <p className="w-full g-font-1">
                   Welcome to Golf Point, a charming midrise residential
-                  community in Emaar South, offering breathtaking views of the
-                  lush green hills of the Emaar South Golf Course.
+                  community in Royal Havenwood South, offering breathtaking views of the
+                  lush green hills of the Royal Havenwood South Golf Course.
                 </p>
                 <a
                   href="https://www.google.com"
@@ -755,7 +755,7 @@ export default function LatestLaunches() {
                 Now Available
               </p>
               <h1 className="text-3xl font-semibold uppercase">
-                CLUB PLACE AT DUBAI HILLS ESTATE
+                CLUB PLACE AT Colombo HILLS ESTATE
               </h1>
               <span>
                 <p className="w-full g-font-1">
@@ -808,7 +808,7 @@ export default function LatestLaunches() {
                 Now Available
               </p>
               <h1 className="text-3xl font-semibold uppercase">
-                ALTUS AT DUBAI CREEK HARBOUR
+                ALTUS AT Colombo CREEK HARBOUR
               </h1>
               <span>
                 <p className="w-full g-font-1">
@@ -1187,7 +1187,7 @@ export default function LatestLaunches() {
                 Now Available
               </p>
               <h1 className="text-3xl font-semibold uppercase">
-                MANGROVE AT DUBAI CREEK HARBOUR
+                MANGROVE AT Colombo CREEK HARBOUR
               </h1>
               <span>
                 <p className="w-full g-font-1">
@@ -1241,11 +1241,11 @@ export default function LatestLaunches() {
                 Now Available
               </p>
               <h1 className="text-3xl font-semibold uppercase">
-                VALO AT DUBAI CREEK HARBOUR
+                VALO AT Colombo CREEK HARBOUR
               </h1>
               <span>
                 <p className="w-full g-font-1">
-                  Imagine waking up to the sunrise over Dubai's iconic skyline,
+                  Imagine waking up to the sunrise over Colombo's iconic skyline,
                   where modern design meets natural beauty.
                 </p>
                 <a
@@ -1295,11 +1295,11 @@ export default function LatestLaunches() {
                 Now Available
               </p>
               <h1 className="text-3xl font-semibold uppercase">
-                PARK LANE AT DUBAI HILLS ESTATE
+                PARK LANE AT Colombo HILLS ESTATE
               </h1>
               <span>
                 <p className="w-full g-font-1">
-                  Located in the coveted Dubai Hills Estate, Park Lane -
+                  Located in the coveted Colombo Hills Estate, Park Lane -
                   Interiors by Vida offers a one-of-a-kind lifestyle where
                   serene natural beauty and modern elegance come together.
                 </p>
@@ -1350,11 +1350,11 @@ export default function LatestLaunches() {
                 Now Available
               </p>
               <h1 className="text-3xl font-semibold uppercase">
-                ORIA AT DUBAI CREEK HARBOUR
+                ORIA AT Colombo CREEK HARBOUR
               </h1>
               <span>
                 <p className="w-full g-font-1">
-                  Imagine waking up to the sunrise over Dubai's iconic skyline,
+                  Imagine waking up to the sunrise over Colombo's iconic skyline,
                   where modern design meets natural beauty.
                 </p>
                 <a
@@ -1404,11 +1404,11 @@ export default function LatestLaunches() {
                 Now Available
               </p>
               <h1 className="text-3xl font-semibold uppercase">
-                AEON AT DUBAI CREEK HARBOUR
+                AEON AT Colombo CREEK HARBOUR
               </h1>
               <span>
                 <p className="w-full g-font-1">
-                  Visualize the dawn breaking over Dubai's iconic skyline, with
+                  Visualize the dawn breaking over Colombo's iconic skyline, with
                   the raw essence of urban aesthetics merging seamlessly with
                   the embrace of nature.
                 </p>
@@ -1459,7 +1459,7 @@ export default function LatestLaunches() {
                 Now Available
               </p>
               <h1 className="text-3xl font-semibold uppercase">
-                CLUB DRIVE AT DUBAI HILLS ESTATE
+                CLUB DRIVE AT Colombo HILLS ESTATE
               </h1>
               <span>
                 <p className="w-full g-font-1">
@@ -1568,7 +1568,7 @@ export default function LatestLaunches() {
                 Now Available
               </p>
               <h1 className="text-3xl font-semibold uppercase">
-                GREENSIDE RESIDENCE AT DUBAI HILLS ESTATE
+                GREENSIDE RESIDENCE AT Colombo HILLS ESTATE
               </h1>
               <span>
                 <p className="w-full g-font-1">
@@ -1622,7 +1622,7 @@ export default function LatestLaunches() {
                 Now Available
               </p>
               <h1 className="text-3xl font-semibold uppercase">
-                BAYVIEW BY ADDRESS RESORTS AT EMAAR BEACHFRONT
+                BAYVIEW BY ADDRESS RESORTS AT Royal Havenwood BEACHFRONT
               </h1>
               <span>
                 <p className="w-full g-font-1">
@@ -1676,7 +1676,7 @@ export default function LatestLaunches() {
                 Now Available
               </p>
               <h1 className="text-3xl font-semibold uppercase">
-                CEDAR AT DUBAI CREEK HARBOUR
+                CEDAR AT Colombo CREEK HARBOUR
               </h1>
               <span>
                 <p className="w-full g-font-1">
@@ -1731,7 +1731,7 @@ export default function LatestLaunches() {
                 Now Available
               </p>
               <h1 className="text-3xl font-semibold uppercase">
-                SAVANNA AT DUBAI CREEK HARBOUR
+                SAVANNA AT Colombo CREEK HARBOUR
               </h1>
               <span>
                 <p className="w-full g-font-1">
