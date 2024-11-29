@@ -1,7 +1,6 @@
 import Footer from "./components/Footer";
 import Nav from "./components/Nav";
 import Sidebar from "./components/Sidebar";
-import { Label, TextInput, Textarea } from "flowbite-react";
 
 function ContactUs() {
   return (
@@ -26,9 +25,10 @@ function ContactUs() {
               <form className="flex flex-col w-1/2 gap-4 p-6 border-2 rounded-lg max-md:w-2/3 max-sm:w-5/6">
                 <div>
                   <div className="block mb-2">
-                    <Label htmlFor="email1" value="Your email" />
+                    <label htmlFor="email1" value="Your email" />
                   </div>
-                  <TextInput
+                  <input
+                    className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                     id="email1"
                     type="email"
                     placeholder="example@mail.com"
@@ -37,9 +37,10 @@ function ContactUs() {
                 </div>
                 <div className="w-full">
                   <div className="block mb-2">
-                    <Label htmlFor="enquiry" value="Your Enquiry" />
+                    <label htmlFor="enquiry" value="Your Enquiry" />
                   </div>
-                  <Textarea
+                  <textarea
+                    className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                     id="enquiry"
                     placeholder="Enter your enquiry..."
                     required
