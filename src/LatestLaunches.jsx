@@ -1,7 +1,7 @@
-import Button from "./components/Button.js";
-import Footer from "./components/Footer.js";
-import Nav from "./components/Nav.js";
-import Sidebar from "./components/Sidebar.js";
+import Button from "./components/Button";
+import Footer from "./components/Footer";
+import Nav from "./components/Nav";
+import Sidebar from "./components/Sidebar";
 
 export default function LatestLaunches() {
   const handleLaunchFilter = (Filter) => {
