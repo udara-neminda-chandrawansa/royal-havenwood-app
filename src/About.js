@@ -79,14 +79,14 @@ export default function About() {
             <Nav theme={"dark"}></Nav>
           </span>
           {/*banner (img + overview text)*/}
-          <div className="relative w-full h-[600px]">
+          <div className="relative w-full h-[600px] max-[992px]:h-fit">
             <img
               src={banner}
               className="object-cover w-full h-full"
               alt="about"
             ></img>
             {/*floating white square with text*/}
-            <div className="absolute bottom-[-15%] w-full h-fit max-[992px]:relative max-[992px]:top-0">
+            <div className="absolute bottom-[-15%] w-full h-fit max-[992px]:relative max-[992px]:z-10 max-[992px]:bottom-0">
               <div className="bg-white w-2/3 max-[992px]:w-full p-4 py-12 h-fit flex flex-col justify-center">
                 <span className="flex items-center gap-5 p-1 text-xs tracking-widest text-gray-600 uppercase g-font-2">
                   Overview
