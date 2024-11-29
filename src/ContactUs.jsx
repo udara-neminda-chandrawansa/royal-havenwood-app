@@ -25,7 +25,7 @@ function ContactUs() {
               <form className="flex flex-col w-1/2 gap-4 p-6 border-2 rounded-lg max-md:w-2/3 max-sm:w-5/6">
                 <div>
                   <div className="block mb-2">
-                    <label htmlFor="email1" value="Your email" />
+                    <label className="text-sm" htmlFor="email1">Your Email Address</label>
                   </div>
                   <input
                     className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
@@ -37,7 +37,7 @@ function ContactUs() {
                 </div>
                 <div className="w-full">
                   <div className="block mb-2">
-                    <label htmlFor="enquiry" value="Your Enquiry" />
+                    <label className="text-sm" htmlFor="enquiry">Your Enquiry</label>
                   </div>
                   <textarea
                     className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
